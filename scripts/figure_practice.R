@@ -55,7 +55,7 @@ usa <- read.csv("data/usa_data.csv")
 colnames(canada)
 
 can_pic <- canada %>% 
-  mutate(Group = fct_reorder(Group, proportion, .desc = TRUE)) %>% 
+  mutate(Group = fct_reorder(Group, proportion)) %>% 
 ggplot() +
   geom_segment( aes(x = Group, xend = Group, y = 0, yend = proportion),
                 colour = "#0A9396", lwd = 1.5) +
@@ -67,8 +67,10 @@ ggplot() +
   theme_minimal() +
   theme(text = element_text(size = 16)) +
   ggtitle("CANADA") +
-  scale_y_continuous(breaks = seq(0, 60, 10), limits = c(-1, 60)) +
+  scale_y_continuous(breaks = seq(0, 60, 10), limits = c(-0.1, 60)) +
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
+        axis.ticks = element_line(colour = "black", size = 1),
+        axis.line = element_line(colour = "black", size = 1),
         plot.title = element_text(hjust = 0.5)) 
 
 usa_pic <- usa %>% 
@@ -85,8 +87,10 @@ usa_pic <- usa %>%
         axis.text.y=element_blank(),axis.ticks=element_blank(),
         plot.title = element_text(hjust = 0.5)) +
   ggtitle("USA") +
-  scale_y_continuous(breaks = seq(0, 60, 10), limits = c(-1, 60)) +
-  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
+  scale_y_continuous(breaks = seq(0, 60, 10), limits = c(-0.1, 60)) +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
+        axis.ticks.x = element_line(colour = "black", size = 1),
+        axis.line.x = element_line(colour = "black", size = 1)) +
   annotate("text", x = 17, y = 0.29, label = "", size = 5) 
 
 # Put it together
@@ -387,20 +391,20 @@ usa_phylo <- usa_pic +
  
   
 can_phylo <- can_pic + 
-  add_phylopic(bird_pic, alpha = 1, x = 1, y = 58, ysize = 5) +
-  add_phylopic(bear_pic, alpha = 1, x = 2, y = 43, ysize = 5) +
-  add_phylopic(toad_pic, alpha = 1, x = 3, y = 35, ysize = 6) +
-  add_phylopic(reptile_pic, alpha = 1, x = 4, y = 23, ysize = 10) +
-  add_phylopic(fish_pic, alpha = 1, x = 5, y = 20, ysize = 8) +
-  add_phylopic(lichen_pic, alpha = 1, x = 6, y = 15, ysize = 7) +
-  add_phylopic(insect_pic, alpha = 1, x = 7, y = 11, ysize = 6) +
-  add_phylopic(clam_pic, alpha = 1, x = 8, y = 11, ysize = 5) +
-  add_phylopic(flower_pic, alpha = 1, x = 9, y = 7, ysize = 7) +
-  add_phylopic(arach_pic, alpha = 1, x = 10, y = 5, ysize = 7) +
-  add_phylopic(conifer_pic, alpha = 1, x = 11, y = 5, ysize = 8) +
-  add_phylopic(fern_pic, alpha = 1, x = 12, y = 5, ysize = 6) +
-  add_phylopic(moss_pic, alpha = 1, x = 13, y = 5, ysize = 7) + 
-  add_phylopic(snail_pic, alpha = 1, x = 14, y = 5, ysize = 7)
+  add_phylopic(bird_pic, alpha = 1, x = 14, y = 58, ysize = 5) +
+  add_phylopic(bear_pic, alpha = 1, x = 13, y = 43, ysize = 5) +
+  add_phylopic(toad_pic, alpha = 1, x = 12, y = 35, ysize = 6) +
+  add_phylopic(reptile_pic, alpha = 1, x = 11, y = 23, ysize = 10) +
+  add_phylopic(fish_pic, alpha = 1, x = 10, y = 20, ysize = 8) +
+  add_phylopic(lichen_pic, alpha = 1, x = 9, y = 15, ysize = 7) +
+  add_phylopic(insect_pic, alpha = 1, x = 8, y = 11, ysize = 6) +
+  add_phylopic(clam_pic, alpha = 1, x = 7, y = 11, ysize = 5) +
+  add_phylopic(flower_pic, alpha = 1, x = 6, y = 7, ysize = 7) +
+  add_phylopic(arach_pic, alpha = 1, x = 5, y = 5, ysize = 7) +
+  add_phylopic(conifer_pic, alpha = 1, x = 4, y = 5, ysize = 8) +
+  add_phylopic(fern_pic, alpha = 1, x = 3, y = 5, ysize = 6) +
+  add_phylopic(moss_pic, alpha = 1, x = 2, y = 5, ysize = 7) + 
+  add_phylopic(snail_pic, alpha = 1, x = 1, y = 5, ysize = 7)
   
   
 combine_phylo <- usa_phylo + plot_spacer() + can_phylo +
@@ -411,7 +415,9 @@ combine_phylo
 
 
 ggsave("figures/combined_figure_phylo.TIFF",
-       combine_phylo)
+       combine_phylo,
+       height = 8.62,
+       width = 17.9)
    
 
   
