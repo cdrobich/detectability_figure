@@ -1,16 +1,15 @@
-Group,num_papers,Country
-Amphibians,15,Canada
-Arachnids,0,Canada
-Birds,131,Canada
-Clams,1,Canada
-Conifers and Cycads,0,Canada
-Ferns and Allies,0,Canada
-Fishes,44,Canada
-Flowering Plants,3,Canada
-Insects,5,Canada
-Lichens,2,Canada
-Mammals,93,Canada
-Mosses,0,Canada
-Reptiles,12,Canada
-Snails,0,Canada
-Crustaceans,0,Canada
+"Group","total_species","species_estimates","proportion","Country"
+"Amphibians",33,10,30.3030303030303,"Canada"
+"Arachnids",1,0,0,"Canada"
+"Birds",119,63,52.9411764705882,"Canada"
+"Clams",22,1,4.54545454545455,"Canada"
+"Conifers and Cycads",2,0,0,"Canada"
+"Ferns and Allies",15,0,0,"Canada"
+"Fishes",155,20,12.9032258064516,"Canada"
+"Flowering Plants",216,3,1.38888888888889,"Canada"
+"Insects",73,4,5.47945205479452,"Canada"
+"Lichens",24,2,8.33333333333333,"Canada"
+"Mammals",90,33,36.6666666666667,"Canada"
+"Mosses",26,0,0,"Canada"
+"Reptiles",38,6,15.7894736842105,"Canada"
+"Snails",27,0,0,"Canada"
