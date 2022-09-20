@@ -1,18 +1,29 @@
-"Group","total_papers","with_detect","Country","proportion"
-"Amphibians",11,8,"USA",0.727272727272727
-"Birds",25,19,"USA",0.76
-"Clams",2,2,"USA",1
-"Fishes",27,17,"USA",0.62962962962963
-"Flowering Plants",10,5,"USA",0.5
-"Insects",5,3,"USA",0.6
-"Mammals",97,62,"USA",0.639175257731959
-"Reptiles",47,24,"USA",0.51063829787234
-"Amphibians",20,11,"Canada",0.55
-"Birds",116,73,"Canada",0.629310344827586
-"Clams",1,1,"Canada",1
-"Fishes",77,33,"Canada",0.428571428571429
-"Flowering Plants",2,1,"Canada",0.5
-"Insects",7,4,"Canada",0.571428571428571
-"Lichens",2,2,"Canada",1
-"Mammals",155,81,"Canada",0.52258064516129
-"Reptiles",21,12,"Canada",0.571428571428571
+"Group","num_papers","Country"
+"Amphibians",15,"Canada"
+"Arachnids",0,"Canada"
+"Birds",131,"Canada"
+"Clams",1,"Canada"
+"Conifers and Cycads",0,"Canada"
+"Ferns and Allies",0,"Canada"
+"Fishes",44,"Canada"
+"Flowering Plants",3,"Canada"
+"Insects",5,"Canada"
+"Lichens",2,"Canada"
+"Mammals",93,"Canada"
+"Mosses",0,"Canada"
+"Reptiles",12,"Canada"
+"Snails",0,"Canada"
+"Amphibians",19,"USA"
+"Arachnids",0,"USA"
+"Birds",37,"USA"
+"Clams",14,"USA"
+"Conifers and Cycads",0,"USA"
+"Crustaceans",7,"USA"
+"Ferns and Allies",5,"USA"
+"Fishes",20,"USA"
+"Flowering Plants",88,"USA"
+"Insects",9,"USA"
+"Lichens",0,"USA"
+"Mammals",29,"USA"
+"Reptiles",7,"USA"
+"Snails",5,"USA"

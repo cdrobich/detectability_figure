@@ -9,36 +9,34 @@ canada_raw <- read.csv("raw_data/canada_detect.csv")
 usa_raw <- read.csv("raw_data/usa_detect.csv")
 
 # organize data
+colnames(canada_raw)
 
 canada_data <- canada_raw %>% group_by(Group) %>% 
-  summarize_at(vars(num_hits, num_papers), sum) %>% 
-  rename(total_papers = num_hits,
-         with_detect = num_papers) %>% 
-  add_column(Country = "Canada")%>% 
-  mutate(proportion = (with_detect/total_papers)) %>% 
-  mutate_all(~replace(., is.nan(.), 0)) %>% 
-  filter(proportion != 0) %>% 
-  mutate(Group = fct_recode(Group,
-                            "Angiosperms" = "Flowering Plants"))
+  summarize_at(vars(num_papers), sum) %>% 
+  #rename(papers = num_papers) %>% 
+  add_column(Country = "Canada") 
+  #mutate(proportion = (with_detect/total_papers)) %>% 
+  #mutate_all(~replace(., is.nan(.), 0)) %>% 
+  #filter(proportion != 0) %>% 
+  #mutate(Group = fct_recode(Group,
+                            #"Angiosperms" = "Flowering Plants"))
   
 canada_data
 
 write.csv(canada_data,"data/canada_data.csv", row.names = FALSE)
 
+colnames(usa_raw)
 
 usa_data <- usa_raw %>% 
-  select(Scientific.Name, Common.Name, num_hits,
-         num_papers, Group) %>% 
   group_by(Group) %>% 
-  summarize_at(vars(num_hits, num_papers), sum) %>% 
-  rename(total_papers = num_hits,
-         with_detect = num_papers) %>% 
-  add_column(Country = "USA") %>% 
-  mutate(proportion = (with_detect/total_papers)) %>% 
-  mutate_all(~replace(., is.nan(.), 0)) %>% 
-  filter(proportion != 0) %>% 
-  mutate(Group = fct_recode(Group,
-                            "Angiosperms" = "Flowering Plants"))
+  summarize_at(vars(num_papers), sum) %>% 
+  #rename(papers = num_papers) %>% 
+  add_column(Country = "USA") 
+  #mutate(proportion = (with_detect/total_papers)) %>% 
+  #mutate_all(~replace(., is.nan(.), 0)) %>% 
+  #filter(proportion != 0) %>% 
+  #mutate(Group = fct_recode(Group,
+                            #"Angiosperms" = "Flowering Plants"))
 
 usa_data
 
@@ -48,7 +46,7 @@ write.csv(usa_data,"data/usa_data.csv", row.names = FALSE)
 # calculate proportion of 'with detect'
 data_combined <- rbind(canada_data, usa_data)
 
-write.csv(data_combine,"data/data_combined.csv", row.names = FALSE)
+write.csv(data_combined,"data/data_combined.csv", row.names = FALSE)
 
 
  # ggplot figure
@@ -58,47 +56,103 @@ usa <- read.csv("data/usa_data.csv")
 # Plot
 
 can_pic <- canada %>% 
-  mutate(Group = fct_reorder(Group, with_detect)) %>% 
+  mutate(Group = fct_reorder(Group, num_papers, .desc = TRUE)) %>% 
 ggplot() +
-  geom_segment( aes(x = Group, xend = Group, y = with_detect, yend = total_papers),
+  geom_segment( aes(x = Group, xend = Group, y = 0, yend = num_papers),
                 colour = "#0A9396", lwd = 1.5) +
-  geom_point( aes(x = Group, y = with_detect), colour = "#00778F", fill = "white", size=5, shape = 21, stroke = 1.5) +
-  geom_point( aes(x = Group, y = total_papers), colour = "#0A9396", size=5 ) +
+  geom_point(aes(x = Group, y = num_papers), colour = "#00778F",
+             fill = "white", size=5, shape = 19, stroke = 1.5) +
+  #geom_point( aes(x = Group, y = total_papers), colour = "#0A9396", size=5 ) +
   xlab("") +
-  ylab(" ") +
+  ylab(" Number of Papers ") +
   theme_minimal() +
   theme(text = element_text(size = 16)) +
   ggtitle("CANADA") +
-  ylim(0, 175)
+  scale_y_continuous(breaks = seq(0, 140, 10), limits = c(-1, 140)) +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
+        plot.title = element_text(hjust = 0.5)) 
 
 usa_pic <- usa %>% 
-  mutate(Group = fct_reorder(Group, with_detect)) %>% 
+  mutate(Group = fct_reorder(Group, num_papers)) %>% 
   ggplot() +
-  geom_segment( aes(x = Group, xend = Group, y = with_detect, yend = total_papers),
+  geom_segment( aes(x = Group, xend = Group, y = 0, yend = num_papers),
                 colour = "#0A9396", lwd = 1.5) +
-  geom_point( aes(x = Group, y = with_detect), colour = "#00778F", fill = "white", size=5, shape = 21, stroke = 1.5) +
-  geom_point( aes(x = Group, y = total_papers), colour = "#0A9396", size=5 ) +
+  geom_point(aes(x = Group, y = num_papers), colour = "#00778F",
+             fill = "white", size=5, shape = 19, stroke = 1.5) +
   xlab("") +
   ylab(" ") +
   theme_minimal() +
-  theme(text = element_text(size = 16)) +
-  ylim(0, 175) +
-  ggtitle("USA")
+  theme(text = element_text(size = 16),
+        axis.text.y=element_blank(),axis.ticks=element_blank(),
+        plot.title = element_text(hjust = 0.5)) +
+  ggtitle("USA") +
+  scale_y_continuous(breaks = seq(0, 140, 10), limits = c(-1, 140)) +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
+  annotate("text", x = 18, y = 0.29, label = "", size = 5) 
 
 # Put it together
 
-combine <- can_pic + usa_pic
+combine <- usa_pic + plot_spacer() + can_pic +
+  plot_layout(widths = c(5, -1.05, 5),
+              guides = 'collect')
+
+combine
+
 
 ggsave("figures/combined_figure.TIFF", combine,
-       height = 8.31,
-       width = 20)
+       width = 15.8,
+       height = 7.6)
+
+
+####### paired plot
+library(ggalt)
+
+data_combined <- read.csv("data/data_combined.csv")
+
+combined_wide <- data_combined %>% 
+  pivot_wider(names_from = Country,
+              values_from = num_papers)
+
+combined_wide[is.na(combined_wide)] <- 0
+colnames(combined_wide)
+
+combined_wide %<>% 
+  rowwise() %>% 
+  mutate(mean_value = mean(c(Canada, USA))) %>% 
+  arrange(mean_value)
+
+
+
+test <- combined_wide %>% 
+  mutate(Group = fct_reorder(Group, mean_value)) %>% 
+  ggplot() +
+  geom_segment(aes(x = Group, xend = Group, y = USA, yend = Canada),
+                colour = "black", lwd = 1.5) +
+  geom_point(aes(x = Group, y = USA), colour = "#00778F",
+              fill = "white", size=5, shape = 15, stroke = 1.5) +
+  geom_point(aes(x = Group, y = Canada), colour = "#00778F",
+             fill = "white", size=5, shape = 19, stroke = 1.5) +
+  xlab("") +
+  ylab("Number of Papers") +
+  theme_minimal() +
+  theme(text = element_text(size = 16)) +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
+  scale_y_continuous(breaks = seq(0, 140, 10), limits = c(-1, 140))
+  #coord_flip() 
+
+
 
 # Phylopic
 # http://phylopic.org/
 colnames(canada_raw)
 
-unique(canada_data$Group)
-# Amphibians  Birds       Clams       Fishes      Angiosperms Insects     Lichens     Mammals     Reptiles
+unique(combined_wide$Group)
+
+# [1] "Amphibians"x          "Arachnids"           "Birds" x          
+# [4] "Clams" x              "Conifers and Cycads" "Ferns and Allies"   
+# [7] "Fishes" x             "Flowering Plants" x    "Insects" x           
+# [10] "Lichens" x            "Mammals"x             "Mosses"             
+# [13] "Reptiles"x            "Snails"              "Crustaceans"   
 
 canada_raw %>% 
   filter(Group == "Reptiles") %>% 
@@ -196,14 +250,67 @@ clam_pic <- image_data("70f895b9-ac43-4d4f-bd8c-604834bce948", size = 256)[[1]]
 
 ####### LICHEN ####
 
-lichen <- name_search(text = "lichen", options = "namebankID")[[1]]
+lichen <- name_search(text = "Lecanoromycetes", options = "namebankID")[[1]]
 lichen
 
 lichen_id <- name_images(uuid = lichen$uid[1])
 
-lichen_pic <- image_data("2ab612df-c754-4db8-88e3-f8ae1b1f2a44", size = 256)[[1]]
+lichen_pic <- image_data( "c918dfe0-a7da-48c1-bc82-78d7041e4a13", size = 256)[[1]]
+
+##### SNAILS #########
+snail<- name_search(text = "gastropoda", options = "namebankID")[[1]]
+snail
+
+snail_id <- name_images(uuid = snail$uid[1])
+
+snail_pic <- image_data("c5835123-e2d3-4c20-9e7a-f7b6528bbf8e", size = 256)[[1]]
+
+########## Ferns and Allies ##########
+
+fern<- name_search(text = "Monilophyta", options = "namebankID")[[1]]
+fern
+
+fern_id <- name_images(uuid = fern$uid[1])
+
+fern_pic <- image_data("f2d82e69-89b2-4164-9dfe-e9e623cbd848", size = 256)[[1]]
 
 
+###### Mosses ######
+ 
+moss<- name_search(text = "Bryozoa", options = "namebankID")[[1]]
+moss
+
+moss_id <- name_images(uuid = moss$uid[1])
+
+moss_pic <- image_data("191ad6ce-78f2-444d-b4ad-9c4162b1803f", size = 256)[[1]]
+
+##### Crustacean #####
+ 
+crust<- name_search(text = "Decapoda", options = "namebankID")[[1]]
+crust
+
+crust_id <- name_images(uuid = crust$uid[1])
+
+crust_pic <- image_data("786bbbd0-529d-4e64-a8ac-f54f88194033", size = 256)[[1]]
+
+
+####### "Arachnids"  ######
+ 
+arach<- name_search(text = "Araneidae", options = "namebankID")[[1]]
+arach
+
+arach_id <- name_images(uuid = arach$uid[1])
+
+arach_pic <- image_data("593cd880-1440-4562-b589-264cc6f9e5f2", size = 256)[[1]]
+
+####### "Conifers and Cycads" #####
+
+conifer<- name_search(text = "Pinaceae", options = "namebankID")[[1]]
+conifer
+
+conifer_id <- name_images(uuid = conifer$uid[1])
+
+conifer_pic <- image_data("38c636a7-f4b3-4a6c-89b1-fb2dcbdafa06", size = 256)[[1]]
 
 
 #####  IMAGE #####
@@ -235,3 +342,78 @@ can_phylo <- can_pic +
 combine_phylopic <- USA_phylo + can_phylo
 
 ggsave("figures/combined_figure_phylopic.jpeg", combine_phylopic)
+
+
+
+
+
+test + 
+  add_phylopic(bear_pic, alpha = 1, x = 14, y = 105, ysize = 10) +
+  add_phylopic(toad_pic, alpha = 1, x = 11, y = 30, ysize = 10) +
+  add_phylopic(fish_pic, alpha = 1, x = 12, y = 55, ysize = 9) +
+  add_phylopic(bird_pic, alpha = 1, x = 15, y = 142, ysize = 10) +
+  add_phylopic(reptile_pic, alpha = 1, x = 10, y = 25, ysize = 15) +
+  add_phylopic(flower_pic, alpha = 1, x = 13, y = 100, ysize = 15) +
+  add_phylopic(insect_pic, alpha = 1, x = 8, y = 20, ysize = 12) +
+  add_phylopic(clam_pic, alpha = 1, x = 9, y = 25, ysize = 10)+
+  add_phylopic(snail_pic, alpha = 1, x = 6, y = 20, ysize = 15) +
+  add_phylopic(fern_pic, alpha = 1, x = 5, y = 15, ysize = 10) +
+  add_phylopic(moss_pic, alpha = 1, x = 3, y = 10, ysize = 12) +
+  add_phylopic(crust_pic, alpha = 1, x = 7, y = 20, ysize = 10) +
+  add_phylopic(arach_pic, alpha = 1, x = 1, y = 12, ysize = 14)+
+  add_phylopic(conifer_pic, alpha = 1, x = 2, y = 12, ysize = 17) +
+  add_phylopic(lichen_pic, alpha = 1, x = 4, y = 10, ysize = 10) 
+
+
+##### double figure
+
+usa_phylo <- usa_pic + 
+  add_phylopic(arach_pic, alpha = 1, x = 1, y = 12, ysize = 14) +
+  add_phylopic(conifer_pic, alpha = 1, x = 2, y = 12, ysize = 17) +
+  add_phylopic(lichen_pic, alpha = 1, x = 3, y = 10, ysize = 10) +
+  add_phylopic(moss_pic, alpha = 1, x = 4, y = 10, ysize = 12) +
+  add_phylopic(fern_pic, alpha = 1, x = 5, y = 15, ysize = 10) +
+  add_phylopic(snail_pic, alpha = 1, x = 6, y = 20, ysize = 15) +
+  add_phylopic(crust_pic, alpha = 1, x = 7, y = 20, ysize = 10) +
+  add_phylopic(reptile_pic, alpha = 1, x = 8, y = 20, ysize = 15) +
+  add_phylopic(insect_pic, alpha = 1, x = 9, y = 20, ysize = 12) +
+  add_phylopic(clam_pic, alpha = 1, x = 10, y = 25, ysize = 10) +
+  add_phylopic(toad_pic, alpha = 1, x = 11, y = 30, ysize = 10) +
+  add_phylopic(fish_pic, alpha = 1, x = 12, y = 35, ysize = 9) +
+  add_phylopic(bear_pic, alpha = 1, x = 13, y = 45, ysize = 10) +
+  add_phylopic(bird_pic, alpha = 1, x = 14, y = 50, ysize = 10) +
+  add_phylopic(flower_pic, alpha = 1, x = 15, y = 100, ysize = 15)
+  
+  
+  
+can_phylo <- can_pic + 
+  add_phylopic(bird_pic, alpha = 1, x = 1, y = 142, ysize = 10) +
+  add_phylopic(bear_pic, alpha = 1, x = 2, y = 110, ysize = 10) +
+  add_phylopic(fish_pic, alpha = 1, x = 3, y = 55, ysize = 9) +
+  add_phylopic(toad_pic, alpha = 1, x = 4, y = 30, ysize = 10) +
+  add_phylopic(reptile_pic, alpha = 1, x = 5, y = 25, ysize = 15) +
+  add_phylopic(insect_pic, alpha = 1, x = 6, y = 20, ysize = 12) +
+  add_phylopic(flower_pic, alpha = 1, x = 7, y = 15, ysize = 15) +
+  add_phylopic(lichen_pic, alpha = 1, x = 8, y = 15, ysize = 10) +
+  add_phylopic(clam_pic, alpha = 1, x = 9, y = 15, ysize = 10) +
+  add_phylopic(arach_pic, alpha = 1, x = 10, y = 12, ysize = 14) +
+  add_phylopic(conifer_pic, alpha = 1, x = 11, y = 12, ysize = 17) +
+  add_phylopic(crust_pic, alpha = 1, x = 12, y = 12, ysize = 10) +
+  add_phylopic(fern_pic, alpha = 1, x = 13, y = 10, ysize = 10) +
+  add_phylopic(moss_pic, alpha = 1, x = 14, y = 10, ysize = 12) + 
+  add_phylopic(snail_pic, alpha = 1, x = 15, y = 12, ysize = 15)
+  
+  
+combine_phylo <- usa_phylo + plot_spacer() + can_phylo +
+  plot_layout(widths = c(5, -1.05, 5),
+              guides = 'collect')
+
+combine_phylo
+
+
+ggsave("figures/combined_figure_phylo.TIFF", combine_phylo,
+       width = 13.4,
+       height = 7.21)
+   
+
+  

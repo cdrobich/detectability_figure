@@ -1,842 +1,842 @@
-Common Name,Scientific Name,num_hits,num_papers,Group
-Grizzly Bear,Ursus arctos,14,9,Mammals
-Harbour Porpoise,Phocoena phocoena vomerina,9,7,Mammals
-Humpback Whale,Megaptera novaeangliae,15,6,Mammals
-Bull Trout,Salvelinus confluentus,5,5,Fishes
-Atlantic Salmon,Salmo salar,10,5,Fishes
-Sperm Whale,Physeter macrocephalus,7,5,Mammals
-American Marten,Martes americana atrata,9,5,Mammals
-American Black Bear,Ursus americanus,11,5,Mammals
-Northern Goshawk atricapillus subspecies,Accipiter gentilis atricapillus,6,4,Birds
-Golden Eagle,Aquila chrysaetos,6,4,Birds
-Northern Bobwhite,Colinus virginianus,5,4,Birds
-White Shark,Carcharodon carcharias,6,4,Fishes
-Fin Whale,Balaenoptera physalus,4,4,Mammals
-Marbled Murrelet,Brachyramphus marmoratus,3,3,Birds
-Piping Plover,Charadrius melodus,3,3,Birds
-Common Nighthawk,Chordeiles minor,3,3,Birds
-Acadian Flycatcher,Empidonax virescens,3,3,Birds
-Least Bittern,Ixobrychus exilis,4,3,Birds
-Spotted Owl caurina subspecies,Strix occidentalis caurina,3,3,Birds
-Rainbow Trout,Oncorhynchus mykiss,9,3,Fishes
-North Atlantic Right Whale,Eubalaena glacialis,6,3,Mammals
-Common Bottlenose Dolphin,Tursiops truncatus,8,3,Mammals
-Wolverine,Gulo gulo,6,3,Mammals
-Canada Lynx,Lynx canadensis,3,3,Mammals
-Caribou dawsoni subspecies,Rangifer tarandus dawsoni,7,3,Mammals
-Loggerhead Sea Turtle,Caretta caretta,4,3,Reptiles
-Eastern Box Turtle,Terrapene carolina,3,3,Reptiles
-Jefferson Salamander,Ambystoma jeffersonianum,2,2,Amphibians
-Fowler's Toad,Anaxyrus fowleri,2,2,Amphibians
-"Grasshopper Sparrow, pratensis subspecies",Ammodramus savannarum pratensis,3,2,Birds
-Burrowing Owl,Athene cunicularia,4,2,Birds
-Red-shouldered Hawk,Buteo lineatus,2,2,Birds
-Greater Sage-Grouse urophasianus subspecies,Centrocercus urophasianus urophasianus,5,2,Birds
-Yellow Rail,Coturnicops noveboracensis,2,2,Birds
-Whooping Crane,Grus americana,2,2,Birds
-Yellow-breasted Chat virens subspecies,Icteria virens virens,2,2,Birds
-Louisiana Waterthrush,Parkesia motacilla,2,2,Birds
-King Rail,Rallus elegans,2,2,Birds
-Striped Bass,Morone saxatilis,5,2,Fishes
-Westslope Cutthroat Trout,Oncorhynchus clarkii lewisi,4,2,Fishes
-Atlantic Cod,Gadus morhua,5,2,Fishes
-Coho Salmon,Oncorhynchus kisutch,4,2,Fishes
-Sea Otter,Enhydra lutris,2,2,Mammals
-Blainville's Beaked Whale,Mesoplodon densirostris,3,2,Mammals
-Southern Flying Squirrel,Glaucomys volans,2,2,Mammals
-Northern Myotis,Myotis septentrionalis,3,2,Mammals
-Tri-colored Bat,Perimyotis subflavus,2,2,Mammals
-Fox Squirrel,Sciurus niger,3,2,Mammals
-Snapping Turtle,Chelydra serpentina,2,2,Reptiles
-Massasauga,Sistrurus catenatus,3,2,Reptiles
-Unisexual Ambystoma,Ambystoma laterale - (2) jeffersonianum,2,1,Amphibians
-Western Toad,Anaxyrus boreas,1,1,Amphibians
-Great Plains Toad,Anaxyrus cognatus,1,1,Amphibians
-Cope's Grey Treefrog,Hyla chrysoscelis,2,1,Amphibians
-Northern Leopard Frog,Lithobates pipiens,1,1,Amphibians
-Pickerel Frog,Rana palustris,1,1,Amphibians
-Plains Spadefoot,Spea bombifrons,2,1,Amphibians
-Frosted Elfin,Callophrys irus,1,1,Insects
-Cobblestone Tiger Beetle,Cicindela marginipennis,1,1,Insects
-Monarch,Danaus plexippus,3,1,Insects
-American Burying Beetle,Nicrophorus americanus,1,1,Insects
-Northern Saw-whet Owl brooksi subspecies,Aegolius acadicus brooksi,2,1,Birds
-Baird's Sparrow,Ammodramus bairdii,1,1,Birds
-Nelson's Sharp-tailed Sparrow,Ammodramus nelsoni,1,1,Birds
-Sprague's Pipit,Anthus spragueii,1,1,Birds
-Eastern Whip-poor-will,Antrostomus vociferus,1,1,Birds
-Short-eared Owl,Asio flammeus,2,1,Birds
-Red-tailed Hawk,Buteo jamaicensis,1,1,Birds
-Chestnut-collared Longspur,Calcarius ornatus,1,1,Birds
-Canada Warbler,Cardellina canadensis,2,1,Birds
-Bicknell's Thrush,Catharus bicknelli,1,1,Birds
-Rusty Blackbird,Euphagus carolinus,1,1,Birds
-Bald Eagle,Haliaeetus leucocephalus,2,1,Birds
-Barn Swallow,Hirundo rustica,3,1,Birds
-Wood Thrush,Hylocichla mustelina,2,1,Birds
-Loggerhead Shrike Eastern subspecies,Lanius ludovicianus ssp.,1,1,Birds
-Western Screech-owl kennicottii subspecies,Megascops kennicottii kennicottii,1,1,Birds
-Long-billed Curlew,Numenius americanus,1,1,Birds
-Flammulated Owl,Otus flammeolus,1,1,Birds
-Double-crested Cormorant,Phalacrocorax auritus,1,1,Birds
-Prothonotary Warbler,Protonotaria citrea,1,1,Birds
-Cerulean Warbler,Setophaga cerulea,2,1,Birds
-Hooded Warbler,Setophaga citrina,1,1,Birds
-Greater Prairie-Chicken,Tympanuchus cupido,2,1,Birds
-Barn Owl,Tyto alba,8,1,Birds
-Golden-winged Warbler,Vermivora chrysoptera,1,1,Birds
-Lake Sturgeon,Acipenser fulvescens,1,1,Fishes
-Lake Whitefish,Coregonus clupeaformis,1,1,Fishes
-Kiyi,Coregonus kiyi,1,1,Fishes
-Paxton Lake Benthic Threespine Stickleback,Gasterosteus aculeatus,3,1,Fishes
-Bridle Shiner,Notropis bifrenatus,1,1,Fishes
-Rainbow Smelt,Osmerus mordax,2,1,Fishes
-Cusk,Brosme brosme,1,1,Fishes
-Chinook Salmon,Oncorhynchus tshawytscha,7,1,Fishes
-Vole Ears Lichen,Erioderma mollissimum,1,1,Lichens
-Boreal Felt Lichen,Erioderma pedicellatum,1,1,Lichens
-Little Brown Myotis,Myotis lucifugus,2,1,Mammals
-Bowhead Whale,Balaena mysticetus,7,1,Mammals
-Sei Whale,Balaenoptera borealis,1,1,Mammals
-Blue Whale,Balaenoptera musculus,3,1,Mammals
-Short-beaked Common Dolphin,Delphinus delphis,3,1,Mammals
-North Pacific Right Whale,Eubalaena japonica,1,1,Mammals
-Risso's Dolphin,Grampus griseus,1,1,Mammals
-Dwarf Sperm Whale,Kogia simus,1,1,Mammals
-Atlantic White-sided Dolphin,Lagenorhynchus acutus,1,1,Mammals
-White-beaked Dolphin,Lagenorhynchus albirostris,2,1,Mammals
-Killer Whale,Orcinus orca,4,1,Mammals
-California Sea Lion,Zalophus californianus,2,1,Mammals
-Cuvier's Beaked Whale,Ziphius cavirostris,3,1,Mammals
-Northern Riffleshell,Epioblasma rangiana,1,1,Clams
-Leatherback Sea Turtle,Dermochelys coriacea,4,1,Reptiles
-Wood Turtle,Glyptemys insculpta,3,1,Reptiles
-Spalding's Campion,Silene spaldingii,1,1,Flowering Plants
-Blanchard's Cricket Frog,Acris blanchardi,1,0,Amphibians
-Northwestern Salamander,Ambystoma gracile,0,0,Amphibians
-Long-toed Salamander,Ambystoma macrodactylum,0,0,Amphibians
-Western Tiger Salamander,Ambystoma mavortium,0,0,Amphibians
-Small-mouthed Salamander,Ambystoma texanum,0,0,Amphibians
-Eastern Tiger Salamander,Ambystoma tigrinum,1,0,Amphibians
-Wandering Salamander,Aneides vagrans,0,0,Amphibians
-Rocky Mountain Tailed Frog,Ascaphus montanus,0,0,Amphibians
-Coastal Tailed Frog,Ascaphus truei,0,0,Amphibians
-Canadian Toad,Bufo hemiophrys,0,0,Amphibians
-Northern Dusky Salamander,Desmognathus fuscus,0,0,Amphibians
-Allegheny Mountain Dusky Salamander,Desmognathus ochrophaeus,0,0,Amphibians
-Coastal Giant Salamander,Dicamptodon tenebrosus,0,0,Amphibians
-Ensatina,Ensatina eschscholtzii,0,0,Amphibians
-Spring Salamander,Gyrinophilus porphyriticus,1,0,Amphibians
-Four-toed Salamander,Hemidactylium scutatum,0,0,Amphibians
-Mudpuppy,Necturus maculosus,1,0,Amphibians
-Coeur d'Alene Salamander,Plethodon idahoensis,0,0,Amphibians
-Western Red-backed Salamander,Plethodon vehiculum,0,0,Amphibians
-Western Chorus Frog,Pseudacris triseriata,1,0,Amphibians
-Northern Red-legged Frog,Rana aurora,1,0,Amphibians
-Columbia Spotted Frog,Rana luteiventris,0,0,Amphibians
-Oregon Spotted Frog,Rana pretiosa,0,0,Amphibians
-Great Basin Spadefoot,Spea intermontana,0,0,Amphibians
-Red-tailed Leafhopper,Aflexia rubranura,0,0,Insects
-Edwards' Beach Moth,Anarta edwardsii,0,0,Insects
-Manitoba Oakworm Moth,Anisota manitobensis,0,0,Insects
-Mormon Metalmark,Apodemia mormo,0,0,Insects
-Vivid Dancer,Argia vivida,0,0,Insects
-Rusty-patched Bumble Bee,Bombus affinis,0,0,Insects
-Gypsy Cuckoo Bumble Bee,Bombus bohemicus,0,0,Insects
-Western Bumble Bee occidentalis subspecies,Bombus occidentalis occidentalis,0,0,Insects
-American Bumble Bee,Bombus pensylvanicus,0,0,Insects
-Suckley’s Cuckoo Bumble Bee,Bombus suckleyi,0,0,Insects
-Yellow-banded Bumble Bee,Bombus terricola,0,0,Insects
-Hungerford's Crawling Water Beetle,Brychius hungerfordi,0,0,Insects
-Gibson's Big Sand Tiger Beetle,Cicindela formosa gibsoni,0,0,Insects
-Wallis' Dark Saltflat Tiger Beetle,Cicindela parowana wallisi,0,0,Insects
-Northern Barrens Tiger Beetle,Cicindela patruela,0,0,Insects
-Nine-spotted Lady Beetle,Coccinella novemnotata,0,0,Insects
-Transverse Lady Beetle,Coccinella transversoguttata,0,0,Insects
-Maritime Ringlet,Coenonympha nipisiquit,0,0,Insects
-Columbia Dune Moth,Copablepharon absidum,0,0,Insects
-Sand-verbena Moth,Copablepharon fuscum,0,0,Insects
-Pale Yellow Dune Moth,Copablepharon grandis,0,0,Insects
-Dusky Dune Moth,Copablepharon longipenne,0,0,Insects
-Yellow Scarab Hunter Wasp,Dielis pilipes,0,0,Insects
-Okanagan Efferia,Efferia okanagana,0,0,Insects
-Macropis Cuckoo Bee,Epeoloides pilosulus,0,0,Insects
-Mottled Duskywing,Erynnis martialis,0,0,Insects
-Eastern Persius Duskywing,Erynnis persius persius,0,0,Insects
-Island Marble,Euchloe ausonides insulanus,0,0,Insects
-Taylor's Checkerspot,Euphydryas editha taylori,0,0,Insects
-Dun Skipper vestris subspecies,Euphyes vestris vestris,0,0,Insects
-Dune Tachinid Fly,Germaria angustata,0,0,Insects
-Georgia Basin Bog Spider,Gnaphosa snohomish,0,0,Arachnids
-Skillet Clubtail,Gomphus ventricosus,0,0,Insects
-Island Tiger Moth,Grammia complicata,0,0,Insects
-Reversed Haploa Moth,Haploa reversa,0,0,Insects
-Nuttall's Sheep Moth,Hemileuca nuttalli,0,0,Insects
-Bogbean Buckmoth,Hemileuca sp.,0,0,Insects
-Oregon Branded Skipper,Hesperia colorado oregonia,0,0,Insects
-Dakota Skipper,Hesperia dacotae,0,0,Insects
-Ottoe Skipper,Hesperia ottoe,0,0,Insects
-Greenish-white Grasshopper,Hypochlora alba,0,0,Insects
-Sable Island Sweat Bee,Lasioglossum sablense,0,0,Insects
-Weidemeyer's Admiral,Limenitis weidemeyerii,0,0,Insects
-Magdalen Islands Grasshopper,Melanoplus madeleineae,0,0,Insects
-Dark-banded Flower Gem,Melaporphyria immortua,0,0,Insects
-Poweshiek Skipperling,Oarisma poweshiek,0,0,Insects
-Audouin’s Night-stalking Tiger Beetle,Omus audouini,0,0,Insects
-Pygmy Snaketail,Ophiogomphus howei,0,0,Insects
-Aweme Borer,Papaipema aweme,0,0,Insects
-Rapids Clubtail,Phanogomphus quadricolor,0,0,Insects
-Island Blue,Plebejus saepiolus insulanus,0,0,Insects
-Karner Blue,Plebejus samuelis,1,0,Insects
-Sonora Skipper,Polites sonora,0,0,Insects
-Hoptree Borer,Prays atomocella,0,0,Insects
-Five-spotted Bogus Yucca Moth,Prodoxus quinquepunctellus,0,0,Insects
-Northwestern Cellar Spider,Psilochorus hesperus,0,0,Insects
-False-foxglove Sun Moth,Pyrrhia aurantiago,0,0,Insects
-Bert's Predaceous Diving Beetle,Sanfilippodytes bertae,0,0,Insects
-Behr's Hairstreak,Satyrium behrii,0,0,Insects
-Half-moon Hairstreak,Satyrium semiluna,0,0,Insects
-Gold-edged Gem,Schinia avemensis,0,0,Insects
-White Flower Moth,Schinia bimatris,0,0,Insects
-Verna's Flower Moth,Schinia verna,0,0,Insects
-Hine's Emerald,Somatochlora hineana,0,0,Insects
-Riverine Clubtail,Stylurus amnicola,0,0,Insects
-Laura's Clubtail,Stylurus laurae,0,0,Insects
-Olive Clubtail,Stylurus olivaceus,0,0,Insects
-Non-pollinating Yucca Moth,Tegeticula corruptrix,0,0,Insects
-Yucca Moth,Tegeticula yuccasella,0,0,Insects
-Lake Huron Grasshopper,Trimerotropis huroniana,0,0,Insects
-Cooper's Hawk,Accipiter cooperii,0,0,Birds
-Sharp-shinned Hawk,Accipiter striatus,0,0,Birds
-Western Grebe,Aechmophorus occidentalis,0,0,Birds
-Boreal Owl,Aegolius funereus,0,0,Birds
-Henslow's Sparrow,Ammodramus henslowii,0,0,Birds
-Great Blue Heron fannini subspecies,Ardea herodias fannini,0,0,Birds
-Pink-footed Shearwater,Ardenna creatopus,0,0,Birds
-Snowy Owl,Bubo scandiaca,0,0,Birds
-Barrow's Goldeneye,Bucephala islandica,0,0,Birds
-Rough-legged Hawk,Buteo lagopus,0,0,Birds
-Ferruginous Hawk,Buteo regalis,1,0,Birds
-Lark Bunting,Calamospiza melanocorys,0,0,Birds
-Red Knot rufa subspecies,Calidris canutus rufa,1,0,Birds
-Labrador Duck,Camptorhynchus labradorius,0,0,Birds
-Canyon Wren,Catherpes mexicanus,0,0,Birds
-Chimney Swift,Chaetura pelagica,1,0,Birds
-Mountain Plover,Charadrius montanus,0,0,Birds
-Black Tern,Chlidonias niger,0,0,Birds
-Northern Harrier,Circus cyaneus,1,0,Birds
-Sedge Wren,Cistothorus platensis,0,0,Birds
-Evening Grosbeak,Coccothraustes vespertinus,0,0,Birds
-Olive-sided Flycatcher,Contopus cooperi,0,0,Birds
-Eastern Wood-pewee,Contopus virens,0,0,Birds
-Trumpeter Swan,Cygnus buccinator,0,0,Birds
-Black Swift,Cypseloides niger,0,0,Birds
-Bobolink,Dolichonyx oryzivorus,1,0,Birds
-Passenger Pigeon,Ectopistes migratorius,0,0,Birds
-Grey Flycatcher,Empidonax wrightii,0,0,Birds
-Streaked Horned Lark,Eremophila alpestris strigata,0,0,Birds
-Merlin,Falco columbarius,2,0,Birds
-Prairie Falcon,Falco mexicanus,0,0,Birds
-Peregrine Falcon anatum subspecies,Falco peregrinus anatum,0,0,Birds
-Gyrfalcon,Falco rusticolus,0,0,Birds
-American Coot,Fulica americana,0,0,Birds
-Yellow-billed Loon,Gavia adamsii,0,0,Birds
-Common Loon,Gavia immer,0,0,Birds
-Sandhill Crane tabida subspecies,Grus canadensis tabida,0,0,Birds
-Harlequin Duck,Histrionicus histrionicus,0,0,Birds
-Hudsonian Godwit,Limosa haemastica,0,0,Birds
-Red Crossbill percna subspecies,Loxia curvirostra percna,0,0,Birds
-Eastern Screech-owl,Megascops asio,0,0,Birds
-Red-headed Woodpecker,Melanerpes erythrocephalus,0,0,Birds
-Lewis's Woodpecker,Melanerpes lewis,0,0,Birds
-Eskimo Curlew,Numenius borealis,0,0,Birds
-Sage Thrasher,Oreoscoptes montanus,1,0,Birds
-Ivory Gull,Pagophila eburnea,0,0,Birds
-Savannah Sparrow princeps subspecies,Passerculus sandwichensis princeps,0,0,Birds
-Band-tailed Pigeon,Patagioenas fasciata,0,0,Birds
-American White Pelican,Pelecanus erythrorhynchos,0,0,Birds
-Common Poorwill,Phalaenoptilus nuttallii,0,0,Birds
-Red-necked Phalarope,Phalaropus lobatus,0,0,Birds
-Short-tailed Albatross,Phoebastria albatrus,0,0,Birds
-Black-footed Albatross,Phoebastria nigripes,0,0,Birds
-White-headed Woodpecker,Picoides albolarvatus,0,0,Birds
-Great Auk,Pinguinus impennis,0,0,Birds
-Horned Grebe,Podiceps auritus,0,0,Birds
-Red-necked Grebe,Podiceps grisegena,0,0,Birds
-Coastal Vesper Sparrow,Pooecetes gramineus affinis,0,0,Birds
-Cassin's Auklet,Ptychoramphus aleuticus,0,0,Birds
-Ross's Gull,Rhodostethia rosea,0,0,Birds
-McCown's Longspur,Rhynchophanes mccownii,1,0,Birds
-Bank Swallow,Riparia riparia,1,0,Birds
-Prairie Warbler,Setophaga discolor,0,0,Birds
-Kirtland's Warbler,Setophaga kirtlandii,0,0,Birds
-Eastern Bluebird,Sialia sialis,0,0,Birds
-Williamson's Sapsucker,Sphyrapicus thyroideus,0,0,Birds
-Caspian Tern,Sterna caspia,0,0,Birds
-Roseate Tern,Sterna dougallii,0,0,Birds
-Forster's Tern,Sterna forsteri,0,0,Birds
-Common Tern,Sterna hirundo,3,0,Birds
-Great Grey Owl,Strix nebulosa,0,0,Birds
-Eastern Meadowlark,Sturnella magna,1,0,Birds
-Northern Hawk Owl,Surnia ulula,1,0,Birds
-Ancient Murrelet,Synthliboramphus antiquus,0,0,Birds
-Buff-breasted Sandpiper,Tryngites subruficollis,0,0,Birds
-Harris's Sparrow,Zonotrichia querula,0,0,Birds
-Shortnose Sturgeon,Acipenser brevirostrum,1,0,Fishes
-Green Sturgeon,Acipenser medirostris,0,0,Fishes
-Atlantic Sturgeon,Acipenser oxyrinchus,0,0,Fishes
-White Sturgeon,Acipenser transmontanus,0,0,Fishes
-Chiselmouth,Acrocheilus alutaceus,0,0,Fishes
-Eastern Sand Darter,Ammocrypta pellucida,1,0,Fishes
-American Eel,Anguilla rostrata,0,0,Fishes
-Central Stoneroller,Campostoma anomalum,0,0,Fishes
-Mountain Sucker,Catostomus platyrhynchus,0,0,Fishes
-Salish Sucker,Catostomus sp. cf. catostomus,0,0,Fishes
-Redside Dace,Clinostomus elongatus,1,0,Fishes
-Longjaw Cisco,Coregonus alpenae,0,0,Fishes
-Bloater,Coregonus hoyi,0,0,Fishes
-Atlantic Whitefish,Coregonus huntsmani,0,0,Fishes
-Deepwater Cisco,Coregonus johannae,0,0,Fishes
-Bering Cisco,Coregonus laurettae,0,0,Fishes
-European Whitefish,Coregonus lavaretus,0,0,Fishes
-Blackfin Cisco,Coregonus nigripinnis,0,0,Fishes
-Shortnose Cisco,Coregonus reighardi,0,0,Fishes
-Spring Cisco,Coregonus sp.,0,0,Fishes
-Shortjaw Cisco,Coregonus zenithicus,0,0,Fishes
-Coastrange Sculpin,Cottus aleuticus,0,0,Fishes
-Shorthead Sculpin,Cottus confusus,1,0,Fishes
-Columbia Sculpin,Cottus hubbsi,0,0,Fishes
-Spoonhead Sculpin,Cottus ricei,0,0,Fishes
-Rocky Mountain Sculpin,Cottus sp.,0,0,Fishes
-Lake Chub,Couesius plumbeus,0,0,Fishes
-Vancouver Lamprey,Entosphenus macrostomus,0,0,Fishes
-Gravel Chub,Erimystax x-punctatus,0,0,Fishes
-Lake Chubsucker,Erimyzon sucetta,0,0,Fishes
-Grass Pickerel,Esox americanus vermiculatus,0,0,Fishes
-Chain Pickerel,Esox niger,0,0,Fishes
-Greenside Darter,Etheostoma blennioides,0,0,Fishes
-Least Darter,Etheostoma microperca,0,0,Fishes
-Tessellated Darter,Etheostoma olmstedi,0,0,Fishes
-Cutlip Minnow,Exoglossum maxillingua,0,0,Fishes
-Banded Killifish,Fundulus diaphanus,0,0,Fishes
-Blackstripe Topminnow,Fundulus notatus,0,0,Fishes
-Western Silvery Minnow,Hybognathus argyritis,0,0,Fishes
-Plains Minnow,Hybognathus placitus,0,0,Fishes
-Eastern Silvery Minnow,Hybognathus regius,0,0,Fishes
-Chestnut Lamprey,Ichthyomyzon castaneus,0,0,Fishes
-Northern Brook Lamprey,Ichthyomyzon fossor,0,0,Fishes
-Silver Lamprey,Ichthyomyzon unicuspis,0,0,Fishes
-Bigmouth Buffalo,Ictiobus cyprinellus,0,0,Fishes
-Black Buffalo,Ictiobus niger,0,0,Fishes
-Brook Silverside,Labidesthes sicculus,0,0,Fishes
-Western Brook Lamprey,Lampetra richardsoni,0,0,Fishes
-Spotted Gar,Lepisosteus oculatus,0,0,Fishes
-Redbreast Sunfish,Lepomis auritus,0,0,Fishes
-Green Sunfish,Lepomis cyanellus,0,0,Fishes
-Warmouth,Lepomis gulosus,0,0,Fishes
-Orangespotted Sunfish,Lepomis humilis,0,0,Fishes
-Northern Sunfish,Lepomis peltastes,0,0,Fishes
-Alaskan Brook Lamprey,Lethenteron alaskense,0,0,Fishes
-Striped Shiner,Luxilus chrysocephalus,0,0,Fishes
-Redfin Shiner,Lythrurus umbratilis,0,0,Fishes
-Silver Chub,Macrhybopsis storeriana,0,0,Fishes
-Spotted Sucker,Minytrema melanops,0,0,Fishes
-River Redhorse,Moxostoma carinatum,0,0,Fishes
-Black Redhorse,Moxostoma duquesnei,0,0,Fishes
-Golden Redhorse,Moxostoma erythrurum,0,0,Fishes
-Copper Redhorse,Moxostoma hubbsi,0,0,Fishes
-Fourhorn Sculpin,Myoxocephalus quadricornis,0,0,Fishes
-Deepwater Sculpin,Myoxocephalus thompsonii,0,0,Fishes
-Hornyhead Chub,Nocomis biguttatus,0,0,Fishes
-River Chub,Nocomis micropogon,0,0,Fishes
-Pugnose Shiner,Notropis anogenus,0,0,Fishes
-Ghost Shiner,Notropis buchanani,0,0,Fishes
-Bigmouth Shiner,Notropis dorsalis,0,0,Fishes
-Blackchin Shiner,Notropis heterodon,0,0,Fishes
-Carmine Shiner,Notropis percobromus,0,0,Fishes
-Silver Shiner,Notropis photogenis,0,0,Fishes
-Rosyface Shiner,Notropis rubellus,0,0,Fishes
-Weed Shiner,Notropis texanus,0,0,Fishes
-Margined Madtom,Noturus insignis,0,0,Fishes
-Brindled Madtom,Noturus miurus,0,0,Fishes
-Northern Madtom,Noturus stigmosus,0,0,Fishes
-Pugnose Minnow,Opsopoeodus emiliae,0,0,Fishes
-Channel Darter,Percina copelandi,0,0,Fishes
-River Darter,Percina shumardi,0,0,Fishes
-Bluntnose Minnow,Pimephales notatus,0,0,Fishes
-Paddlefish,Polyodon spathula,1,0,Fishes
-Pygmy Whitefish,Prosopium coulterii,0,0,Fishes
-Flathead Catfish,Pylodictis olivaris,1,0,Fishes
-Nooksack Dace,Rhinichthys cataractae,0,0,Fishes
-Leopard Dace,Rhinichthys falcatus,0,0,Fishes
-Speckled Dace,Rhinichthys osculus,0,0,Fishes
-Umatilla Dace,Rhinichthys umatilla,0,0,Fishes
-Aurora Trout,Salvelinus fontinalis timagamiensis,0,0,Fishes
-Dolly Varden,Salvelinus malma malma,1,0,Fishes
-Blue Walleye,Sander vitreus glaucus,0,0,Fishes
-Longfin Smelt,Spirinchus thaleichthys,1,0,Fishes
-Blackline Prickleback,Acantholumpenus mackayi,0,0,Fishes
-Y-Prickleback,Allolumpenus hypochromus,0,0,Fishes
-Blueback Herring,Alosa aestivalis,0,0,Fishes
-Thorny Skate,Amblyraja radiata,0,0,Fishes
-Northern Wolffish,Anarhichas denticulatus,0,0,Fishes
-Atlantic Wolffish,Anarhichas lupus,0,0,Fishes
-Spotted Wolffish,Anarhichas minor,0,0,Fishes
-Bering Wolffish,Anarhichas orientalis,0,0,Fishes
-Wolf-eel,Anarrhichthys ocellatus,0,0,Fishes
-Brown Cat Shark,Apristurus brunneus,0,0,Fishes
-Spinynose Sculpin,Asemichthys taylori,0,0,Fishes
-Sandpaper Skate,Bathyraja interrupta,0,0,Fishes
-Basking Shark,Cetorhinus maximus,0,0,Fishes
-Roundnose Grenadier,Coryphaenoides rupestris,0,0,Fishes
-Lumpfish,Cyclopterus lumpus,0,0,Fishes
-Barndoor Skate,Dipturus laevis,0,0,Fishes
-Tope,Galeorhinus galeus,0,0,Fishes
-Bluntnose Sixgill Shark,Hexanchus griseus,0,0,Fishes
-American Plaice,Hippoglossoides platessoides,0,0,Fishes
-Atlantic Halibut,Hippoglossus hippoglossus,1,0,Fishes
-Shortfin Mako,Isurus oxyrinchus,0,0,Fishes
-Porbeagle,Lamna nasus,0,0,Fishes
-Winter Skate,Leucoraja ocellata,0,0,Fishes
-Roughhead Grenadier,Macrourus berglax,0,0,Fishes
-Smooth Skate,Malacoraja senta,0,0,Fishes
-Pixie Poacher,Occella impi,0,0,Fishes
-Sockeye Salmon,Oncorhynchus nerka,2,0,Fishes
-Blue Shark,Prionace glauca,0,0,Fishes
-Big Skate,Raja binoculata,0,0,Fishes
-Longnose Skate,Raja rhina,0,0,Fishes
-Pacific Sardine,Sardinops sagax,0,0,Fishes
-Darkblotched Rockfish,Sebastes crameri,0,0,Fishes
-Acadian Redfish,Sebastes fasciatus,0,0,Fishes
-Quillback Rockfish,Sebastes maliger,0,0,Fishes
-Deepwater Redfish,Sebastes mentella,0,0,Fishes
-Bocaccio,Sebastes paucispinis,0,0,Fishes
-Canary Rockfish,Sebastes pinniger,0,0,Fishes
-Yellowmouth Rockfish,Sebastes reedi,0,0,Fishes
-Yelloweye Rockfish,Sebastes ruberrimus,0,0,Fishes
-Rougheye Rockfish type I,Sebastes sp.,0,0,Fishes
-Longspine Thornyhead,Sebastolobus altivelis,0,0,Fishes
-Spiny Dogfish,Squalus acanthias,0,0,Fishes
-North Pacific Spiny Dogfish,Squalus suckleyi,0,0,Fishes
-Eulachon,Thaleichthys pacificus,1,0,Fishes
-Atlantic Bluefin Tuna,Thunnus thynnus,0,0,Fishes
-White Hake,Urophycis tenuis,0,0,Fishes
-Mountain Crab-eye,Acroscyphus sphaerophoroides,0,0,Lichens
-Black-foam Lichen,Anzia colpodes,0,0,Lichens
-Flexuous Golden Stubble Lichen,Chaenotheca servitii,0,0,Lichens
-Crumpled Tarpaper Lichen,Collema coniophilum,0,0,Lichens
-Blue Felt Lichen,Degelia plumbea,0,0,Lichens
-White-rimmed Shingle Lichen,Fuscopannaria leucosticta,0,0,Lichens
-Seaside Centipede Lichen,Heterodermia sitchensis,0,0,Lichens
-Seaside Bone Lichen,Hypogymnia heterophylla,0,0,Lichens
-Batwing Vinyl Lichen,Leptogium platynum,0,0,Lichens
-Peacock Vinyl Lichen,Leptogium polycarpum,0,0,Lichens
-Flooded Jellyskin,Leptogium rivulare,0,0,Lichens
-Smoker’s Lung Lichen,Lobaria retigera,0,0,Lichens
-Cryptic Paw Lichen,Nephroma occultum,0,0,Lichens
-Wrinkled Shingle Lichen,Pannaria lurida,0,0,Lichens
-Western Waterfan,Peltigera gowardii,0,0,Lichens
-Eastern Waterfan,Peltigera hydrothyria,0,0,Lichens
-Red Oak Stubble Lichen,Phaeocalicium minutissimum,0,0,Lichens
-Pale-bellied Frost Lichen,Physconia subpallida,0,0,Lichens
-Ghost Antler Lichen,Pseudevernia cladonia,0,0,Lichens
-Oldgrowth Specklebelly Lichen,Pseudocyphellaria rainierensis,0,0,Lichens
-Frosted Glass-whiskers,Sclerophora peronella,0,0,Lichens
-Golden-eye Lichen,Teloschistes chrysophthalmus,0,0,Lichens
-Common Minke Whale North Pacific subspecies,Balaenoptera acutorostrata scammonii,0,0,Mammals
-Baird's Beaked Whale,Berardius bairdii,0,0,Mammals
-Northern Fur Seal,Callorhinus ursinus,0,0,Mammals
-Hooded Seal,Cystophora cristata,0,0,Mammals
-Beluga Whale,Delphinapterus leucas,0,0,Mammals
-Bearded Seal,Erignathus barbatus,0,0,Mammals
-Grey Whale,Eschrichtius robustus,2,0,Mammals
-Steller Sea Lion,Eumetopias jubatus,0,0,Mammals
-Short-finned Pilot Whale,Globicephala macrorhynchus,0,0,Mammals
-Long-finned Pilot Whale,Globicephala melas,1,0,Mammals
-Grey Seal,Halichoerus grypus,0,0,Mammals
-Northern Bottlenose Whale,Hyperoodon ampullatus,0,0,Mammals
-Pygmy Sperm Whale,Kogia breviceps,1,0,Mammals
-Pacific White-sided Dolphin,Lagenorhynchus obliquidens,0,0,Mammals
-Northern Right Whale Dolphin,Lissodelphis borealis,0,0,Mammals
-Sowerby's Beaked Whale,Mesoplodon bidens,0,0,Mammals
-Hubbs' Beaked Whale,Mesoplodon carlhubbsi,0,0,Mammals
-True's Beaked Whale,Mesoplodon mirus,0,0,Mammals
-Stejneger's Beaked Whale,Mesoplodon stejneri,0,0,Mammals
-Northern Elephant Seal,Mirounga angustirostris,1,0,Mammals
-Narwhal,Monodon monoceros,1,0,Mammals
-Sea Mink,Mustela macrodon,0,0,Mammals
-Atlantic Walrus,Odobenus rosmarus rosmarus,0,0,Mammals
-Harbour Seal Pacific subspecies,Phoca vitulina richardsi,1,0,Mammals
-Dall's Porpoise,Phocoenoides dalli,0,0,Mammals
-False Killer Whale,Pseudorca crassidens,0,0,Mammals
-Ringed Seal,Pusa hispida,0,0,Mammals
-Striped Dolphin,Stenella coeruleoalba,0,0,Mammals
-Pallid Bat,Antrozous pallidus,0,0,Mammals
-Mountain Beaver,Aplodontia rufa,0,0,Mammals
-Plains Bison,Bison bison bison,0,0,Mammals
-Arctic Grey Wolf,Canis lupus arctos,0,0,Mammals
-Eastern Wolf,Canis sp. cf. lycaon,0,0,Mammals
-Black-tailed Prairie Dog,Cynomys ludovicianus,0,0,Mammals
-Ord's Kangaroo Rat,Dipodomys ordii,0,0,Mammals
-Spotted Bat,Euderma maculatum,0,0,Mammals
-Plains Pocket Gopher,Geomys bursarius,0,0,Mammals
-Sagebrush Vole,Lemmiscus curtatus,0,0,Mammals
-Vancouver Island Marmot,Marmota vancouverensis,0,0,Mammals
-Woodland Vole,Microtus pinetorum,0,0,Mammals
-Ermine haidarum subspecies,Mustela erminea haidarum,0,0,Mammals
-Prairie Long-tailed Weasel,Mustela frenata longicauda,0,0,Mammals
-Black-footed Ferret,Mustela nigripes,0,0,Mammals
-Keen's Long-eared Bat,Myotis keenii,0,0,Mammals
-Fringed Bat,Myotis thysanodes,0,0,Mammals
-Collared Pika,Ochotona collaris,0,0,Mammals
-Cougar,Puma concolor couguar,2,0,Mammals
-Western Harvest Mouse megalotis subspecies,Reithrodontomys megalotis megalotis,0,0,Mammals
-Eastern Mole,Scalopus aquaticus,0,0,Mammals
-Townsend's Mole,Scapanus townsendii,0,0,Mammals
-Pacific Water Shrew,Sorex bendirii,0,0,Mammals
-Gaspé Shrew,Sorex gaspensis,0,0,Mammals
-Cascade Mantled Ground Squirrel,Spermophilus saturatus,0,0,Mammals
-Nuttall's Cottontail nuttallii subspecies,Sylvilagus nuttallii nuttallii,0,0,Mammals
-Nuttall's Cottontail pinetis subspecies,Sylvilagus nuttallii pinetis,0,0,Mammals
-American Badger,Taxidea taxus,0,0,Mammals
-Gray Fox,Urocyon cinereoargenteus,0,0,Mammals
-Polar Bear,Ursus maritimus,1,0,Mammals
-Swift Fox,Vulpes velox,0,0,Mammals
-Rocky Mountain Capshell,Acroloxus coloradensis,0,0,Snails
-Dwarf Wedgemussel,Alasmidonta heterodon,0,0,Clams
-Brook Floater,Alasmidonta varicosa,0,0,Clams
-Broad-banded Forestsnail,Allogona profunda,0,0,Snails
-Oregon Forestsnail,Allogona townsendiana,0,0,Snails
-Western Banded Tigersnail,Anguispira kochi occidentalis,0,0,Snails
-Spike-lip Crater,Appalachina sayana,0,0,Snails
-Atlantic Mud-piddock,Barnea truncata,0,0,Clams
-Puget Oregonian,Cryptomastix devia,0,0,Snails
-Evening Fieldslug,Deroceras hesperium,0,0,Snails
-Snuffbox mussel,Epioblasma triquetra,0,0,Clams
-Shortface Lanx,Fisherola nuttallii,0,0,Snails
-Rocky Mountain Ridged Mussel,Gonidea angulata,0,0,Clams
-Northern Abalone,Haliotis kamtschatkana,0,0,Snails
-Dromedary Jumping-slug,Hemphillia dromedarius,0,0,Snails
-Warty Jumping-slug,Hemphillia glandulosa,0,0,Snails
-Shagreen,Inflectarius inflectus,0,0,Snails
-Pygmy Slug,Kootenaia burkei,0,0,Snails
-Yellow Lampmussel,Lampsilis cariosa,0,0,Clams
-Wavy-rayed Lampmussel,Lampsilis fasciola,0,0,Clams
-Eastern Pondmussel,Ligumia nasuta,0,0,Clams
-Eelgrass Limpet,Lottia alveus alveus,0,0,Snails
-Squat Duskysnail,Lyogyrus granum,0,0,Snails
-Magnum Mantleslug,Magnipelta mycophaga,0,0,Snails
-Toothed Globe,Mesodon zaletus,0,0,Snails
-Threaded Vertigo,Nearctula sp.,0,0,Snails
-Threehorn Wartyback,Obliquaria reflexa,0,0,Clams
-Hickorynut,Obovaria olivaria,0,0,Clams
-Round Hickorynut,Obovaria subrotunda,0,0,Clams
-Olympia Oyster,Ostrea lurida,0,0,Clams
-Proud Globelet,Patera pennsylvanica,0,0,Snails
-Carolina Mantleslug,Philomycus carolinianus,0,0,Snails
-Lake Winnipeg Physa,Physa sp.,0,0,Snails
-Banff Springs Snail,Physella johnsoni,0,0,Snails
-Gatineau Tadpole Snail,Physella parkeri latchfordi,0,0,Snails
-Hotwater Physa,Physella wrighti,0,0,Snails
-Round Pigtoe,Pleurobema sintoxia,0,0,Clams
-Blue-grey Taildropper,Prophysaon coeruleum,0,0,Snails
-Kidneyshell,Ptychobranchus fasciolaris,0,0,Clams
-Mapleleaf,Quadrula quadrula,0,0,Clams
-Salamander Mussel,Simpsonaias ambigua,0,0,Clams
-Haida Gwaii Slug,Staala gwaii,0,0,Snails
-Lilliput,Toxolasma parvum,0,0,Clams
-Fawnsfoot,Truncilla donaciformis,0,0,Clams
-Rayed Bean,Villosa fabalis,0,0,Clams
-Rainbow Mussel,Villosa iris,0,0,Clams
-Striped Whitelip,Webbhelix multilineata,0,0,Snails
-Sheathed Slug,Zacoleus idahoensis,0,0,Clams
-Rigid Apple Moss,Bartramia aprica,0,0,Mosses
-Haller's Apple Moss,Bartramia halleriana,0,0,Mosses
-Roell's Brotherella Moss,Brotherella roellii,0,0,Mosses
-Spoon-leaved Moss,Bryoandersonia illecebra,0,0,Mosses
-Columbian Carpet Moss,Bryoerythrophyllum columbianum,0,0,Mosses
-Tiny Tassel,Crossidium seriatum,0,0,Mosses
-Dalton’s Moss,Daltonia splachnoides,0,0,Mosses
-Schleicher's Silk Moss,Entodon schleicheri,0,0,Mosses
-Banded Cord-moss,Entosthodon fascicularis,0,0,Mosses
-Rusty Cord-moss,Entosthodon rubiginosus,0,0,Mosses
-Silver Hair Moss,Fabronia pusilla,0,0,Mosses
-Pygmy Pocket Moss,Fissidens exilis,0,0,Mosses
-Poor Pocket Moss,Fissidens pauperculus,0,0,Mosses
-Porsild's Bryum,Haplodontium macrocarpum,0,0,Mosses
-Delicate Luster Moss,Isopterygium tenerum,0,0,Mosses
-Nugget Moss,Microbryum vlassovii,0,0,Mosses
-Macoun's Shining Moss,Neomacounia nitida,0,0,Mosses
-Drooping-leaved Beard-moss,Oxystegus recurvifolius,0,0,Mosses
-Alkaline Wing-nerved Moss,Pterygoneurum kozlovii,0,0,Mosses
-Incurved Grizzled Moss,Ptychomitrium incurvum,0,0,Mosses
-Margined Streamside Moss,Scouleria marginata,0,0,Mosses
-Acuteleaf Small Limestone Moss,Seligeria acutifolia,0,0,Mosses
-Carey’s Small Limestone Moss,Seligeria careyana,0,0,Mosses
-Twisted Oak Moss,Syntrichia laevipila,0,0,Mosses
-Porter's Twisted Moss,Tortula porteri,0,0,Mosses
-Slender Yoke-moss,Zygodon gracilis,0,0,Mosses
-Pacific Pond Turtle,Actinemys marmorata,1,0,Reptiles
-Spiny Softshell,Apalone spinifera,0,0,Reptiles
-Northern Rubber Boa,Charina bottae,0,0,Reptiles
-Eastern Painted Turtle,Chrysemys picta picta,0,0,Reptiles
-Spotted Turtle,Clemmys guttata,0,0,Reptiles
-Western Yellow-bellied Racer,Coluber constrictor mormon,0,0,Reptiles
-Sharp-tailed Snake,Contia tenuis,0,0,Reptiles
-Timber Rattlesnake,Crotalus horridus,1,0,Reptiles
-Western Rattlesnake,Crotalus oreganus,0,0,Reptiles
-Prairie Rattlesnake,Crotalus viridis,0,0,Reptiles
-Northern Alligator Lizard,Elgaria coerulea,0,0,Reptiles
-Blanding's Turtle,Emydoidea blandingii,0,0,Reptiles
-Northern Map Turtle,Graptemys geographica,0,0,Reptiles
-Plains Hog-nosed Snake,Heterodon nasicus,0,0,Reptiles
-Eastern Hog-nosed Snake,Heterodon platirhinos,0,0,Reptiles
-Desert Nightsnake,Hypsiglena chlorophaea,0,0,Reptiles
-Eastern Milksnake,Lampropeltis triangulum,0,0,Reptiles
-Northern Watersnake,Nerodia sipedon sipedon,0,0,Reptiles
-Gray Ratsnake,Pantherophis spiloides,0,0,Reptiles
-Eastern Foxsnake,Pantherophis vulpinus,0,0,Reptiles
-Pygmy Short-horned Lizard,Phrynosoma douglasii,0,0,Reptiles
-Greater Short-horned Lizard,Phrynosoma hernandesi,0,0,Reptiles
-Bullsnake,Pituophis catenifer sayi,0,0,Reptiles
-Five-lined Skink,Plestiodon fasciatus,0,0,Reptiles
-Prairie Skink,Plestiodon septentrionalis,0,0,Reptiles
-Western Skink,Plestiodon skiltonianus,0,0,Reptiles
-Queensnake,Regina septemvittata,0,0,Reptiles
-Eastern Musk Turtle,Sternotherus odoratus,0,0,Reptiles
-DeKay's Brownsnake,Storeria dekayi,0,0,Reptiles
-Butler's Gartersnake,Thamnophis butleri,0,0,Reptiles
-Northwestern Gartersnake,Thamnophis ordinoides,0,0,Reptiles
-Eastern Ribbonsnake,Thamnophis sauritus,0,0,Reptiles
-Pink Sand-verbena,Abronia umbellata,0,0,Flowering Plants
-Large-headed Woolly Yarrow,Achillea millefolium var. megacephala,0,0,Flowering Plants
-Tall Bugbane,Actaea elata,0,0,Flowering Plants
-Southern Maidenhair Fern,Adiantum capillus-veneris,0,0,Ferns and Allies
-Rough Agalinis,Agalinis aspera,0,0,Flowering Plants
-Gattinger's Agalinis,Agalinis gattingeri,0,0,Flowering Plants
-Skinner's Agalinis,Agalinis skinneriana,0,0,Flowering Plants
-Colicroot,Aletris farinosa,0,0,Flowering Plants
-Scarlet Ammannia,Ammannia robusta,0,0,Flowering Plants
-Stoloniferous Pussytoes,Antennaria flagellaris,0,0,Flowering Plants
-Green Dragon,Arisaema dracontium,0,0,Flowering Plants
-Forked Three-awned Grass,Aristida basiramea,0,0,Flowering Plants
-Athabasca Thrift,Armeria maritima ssp. interior,0,0,Flowering Plants
-Griscom’s Arnica,Arnica griscomii ssp. griscomii,0,0,Flowering Plants
-Tuberous Indian-plantain,Arnoglossum plantagineum,0,0,Flowering Plants
-Wood's Sagebrush,Artemisia rupestris ssp. woodii,0,0,Flowering Plants
-Four-leaved Milkweed,Asclepias quadrifolia,0,0,Flowering Plants
-American Hart's-tongue Fern,Asplenium scolopendrium var. americanum,0,0,Ferns and Allies
-Fernald's Milk-vetch,Astragalus robbinsii var. fernaldii,0,0,Flowering Plants
-Smooth Yellow False Foxglove,Aureolaria flava,0,0,Flowering Plants
-Fern-leaved Yellow False Foxglove,Aureolaria pedicularia,0,0,Flowering Plants
-Downy Yellow False Foxglove,Aureolaria virginica,0,0,Flowering Plants
-Mexican Mosquito-fern,Azolla mexicana,0,0,Ferns and Allies
-Eastern Baccharis,Baccharis halimifolia,0,0,Flowering Plants
-Deltoid Balsamroot,Balsamorhiza deltoidea,0,0,Flowering Plants
-Branched Bartonia,Bartonia paniculata ssp. paniculata,0,0,Flowering Plants
-Cherry Birch,Betula lenta,0,0,Flowering Plants
-Vancouver Island Beggarticks,Bidens amplissima,0,0,Flowering Plants
-Quebec Rockcress,Boechera quebecensis,0,0,Flowering Plants
-Buffalograss,Bouteloua dactyloides,0,0,Flowering Plants
-Fernald's Braya,Braya fernaldii,0,0,Flowering Plants
-Long's Braya,Braya longii,0,0,Flowering Plants
-Hairy Braya,Braya pilosa,0,0,Flowering Plants
-Large-flowered Brickellia,Brickellia grandiflora,0,0,Flowering Plants
-Bluehearts,Buchnera americana,0,0,Flowering Plants
-Lyall's Mariposa Lily,Calochortus lyallii,0,0,Flowering Plants
-Wild Hyacinth,Camassia scilloides,0,0,Flowering Plants
-Contorted-pod Evening-primrose,Camissonia contorta,0,0,Flowering Plants
-Juniper Sedge,Carex juniperorum,0,0,Flowering Plants
-False Hop Sedge,Carex lupuliformis,0,0,Flowering Plants
-Nebraska Sedge,Carex nebrascensis,0,0,Flowering Plants
-Baikal Sedge,Carex sabulosa,0,0,Flowering Plants
-Foothill Sedge,Carex tumulicola,0,0,Flowering Plants
-American Chestnut,Castanea dentata,0,0,Flowering Plants
-Golden Paintbrush,Castilleja levisecta,0,0,Flowering Plants
-Cliff Paintbrush,Castilleja rupicola,0,0,Flowering Plants
-Hairy Paintbrush,Castilleja tenuis,0,0,Flowering Plants
-Victoria's Owl-clover,Castilleja victoriae,0,0,Flowering Plants
-Dwarf Hackberry,Celtis tenuifolia,0,0,Flowering Plants
-Muhlenberg's Centaury,Centaurium muehlenbergii,0,0,Flowering Plants
-Phantom Orchid,Cephalanthera austiniae,0,0,Flowering Plants
-Smooth Goosefoot,Chenopodium subglabrum,0,0,Flowering Plants
-Spotted Wintergreen,Chimaphila maculata,0,0,Flowering Plants
-Victorin's Water-hemlock,Cicuta maculata var. victorinii,0,0,Flowering Plants
-Hill's Thistle,Cirsium hillii,0,0,Flowering Plants
-Pitcher's Thistle,Cirsium pitcheri,0,0,Flowering Plants
-Sweet Pepperbush,Clethra alnifolia,0,0,Flowering Plants
-Spring Blue-eyed Mary,Collinsia verna,0,0,Flowering Plants
-Slender Collomia,Collomia tenella,0,0,Flowering Plants
-Pink Coreopsis,Coreopsis rosea,0,0,Flowering Plants
-Eastern Flowering Dogwood,Cornus florida,0,0,Flowering Plants
-Scouler's Corydalis,Corydalis scouleri,0,0,Flowering Plants
-Tiny Cryptantha,Cryptantha minima,0,0,Flowering Plants
-Small White Lady's-slipper,Cypripedium candidum,0,0,Flowering Plants
-Hairy Prairie-clover,Dalea villosa,0,0,Flowering Plants
-Mackenzie Hairgrass,Deschampsia mackenzieana,0,0,Flowering Plants
-Illinois Tick-trefoil,Desmodium illinoense,0,0,Flowering Plants
-Long-stalked Whitlow-grass,Draba juvenilis,0,0,Flowering Plants
-Puvirnituq Mountain Draba,Draba puvirnituqii,0,0,Flowering Plants
-Yukon Draba,Draba yukonensis,0,0,Flowering Plants
-Thread-leaved Sundew,Drosera filiformis,0,0,Flowering Plants
-Coastal Wood Fern,Dryopteris arguta,0,0,Ferns and Allies
-Purple Spikerush,Eleocharis atropurpurea,0,0,Ferns and Allies
-Horsetail Spike-rush,Eleocharis equisetoides,0,0,Ferns and Allies
-Bent Spike-rush,Eleocharis geniculata,0,0,Ferns and Allies
-Tubercled Spike-rush,Eleocharis tuberculosa,0,0,Ferns and Allies
-False Rue-anemone,Enemion biternatum,0,0,Flowering Plants
-Dense Spike-primrose,Epilobium densiflorum,0,0,Flowering Plants
-Brook Spike-primrose,Epilobium torreyi,0,0,Flowering Plants
-Giant Helleborine,Epipactis gigantea,0,0,Flowering Plants
-Rabbit-brush Goldenweed,Ericameria bloomeri,0,0,Flowering Plants
-Leiberg's Fleabane,Erigeron leibergii,0,0,Flowering Plants
-Provancher's Fleabane,Erigeron philadelphicus var. provancheri,0,0,Flowering Plants
-Dwarf Fleabane,Erigeron radicatus,0,0,Flowering Plants
-Parker's Pipewort,Eriocaulon parkeri,0,0,Flowering Plants
-Yukon Wild Buckwheat,Eriogonum flavum var. aquilinum,0,0,Flowering Plants
-Narrow-leaved Wallflower,Erysimum angustatum,0,0,Flowering Plants
-White Wood Aster,Eurybia divaricata,0,0,Flowering Plants
-False Mermaid,Floerkea proserpinacoides,1,0,Flowering Plants
-American Columbo,Frasera caroliniensis,0,0,Flowering Plants
-Black Ash,Fraxinus nigra,0,0,Flowering Plants
-Blue Ash,Fraxinus quadrangulata,0,0,Flowering Plants
-White Prairie Gentian,Gentiana alba,0,0,Flowering Plants
-Victorin's Gentian,Gentianopsis virgata ssp. victorinii,0,0,Flowering Plants
-Eastern Mountain Avens,Geum peckii,0,0,Flowering Plants
-Kentucky Coffee-tree,Gymnocladus dioicus,0,0,Flowering Plants
-Okanogan Stickseed,Hackelia ciliata,0,0,Flowering Plants
-Slender Mouse-ear-cress,Halimolobos virgata,0,0,Flowering Plants
-Dwarf Hesperochiron,Hesperochiron pumilus,0,0,Flowering Plants
-Swamp Rose-mallow,Hibiscus moscheutos,0,0,Flowering Plants
-Little Barley,Hordeum pusillum,0,0,Flowering Plants
-Goldenseal,Hydrastis canadensis,0,0,Flowering Plants
-Water Pennywort,Hydrocotyle umbellata,0,0,Flowering Plants
-Dwarf Lake Iris,Iris lacustris,0,0,Flowering Plants
-Western Blue Flag,Iris missouriensis,0,0,Flowering Plants
-Bolander's Quillwort,Isoetes bolanderi,0,0,Ferns and Allies
-Engelmann's Quillwort,Isoetes engelmannii,0,0,Ferns and Allies
-Columbia Quillwort,Isoetes minima,0,0,Ferns and Allies
-Prototype Quillwort,Isoetes prototypus,0,0,Ferns and Allies
-Small Whorled Pogonia,Isotria medeoloides,0,0,Flowering Plants
-Large Whorled Pogonia,Isotria verticillata,0,0,Flowering Plants
-Butternut,Juglans cinerea,0,0,Flowering Plants
-New Jersey Rush,Juncus caesariensis,0,0,Flowering Plants
-Kellogg's Rush,Juncus kelloggii,0,0,Flowering Plants
-American Water-willow,Justicia americana,0,0,Flowering Plants
-Redroot,Lachnanthes caroliniana,0,0,Flowering Plants
-Rayless Goldfields,Lasthenia glaberrima,0,0,Flowering Plants
-Silky Beach Pea,Lathyrus littoralis,0,0,Flowering Plants
-Impoverished Pinweed,Lechea intermedia var. depauperata,0,0,Flowering Plants
-Beach Pinweed,Lechea maritima,0,0,Flowering Plants
-Slender Bush-clover,Lespedeza virginica,0,0,Flowering Plants
-Tweedy's Lewisia,Lewisiopsis tweedyi,0,0,Flowering Plants
-Dense Blazing Star,Liatris spicata,0,0,Flowering Plants
-Eastern Lilaeopsis,Lilaeopsis chinensis,0,0,Flowering Plants
-Macoun's Meadowfoam,Limnanthes macounii,0,0,Flowering Plants
-Purple Twayblade,Liparis liliifolia,0,0,Flowering Plants
-Small-flowered Lipocarpha,Lipocarpha micrantha,0,0,Flowering Plants
-Gray's Desert-parsley,Lomatium grayi,0,0,Flowering Plants
-Goldencrest,Lophiola aurea,0,0,Flowering Plants
-Seaside Birds-foot Lotus,Lotus formosissimus,0,0,Flowering Plants
-Bog Bird’s-foot Trefoil,Lotus pinnatus,0,0,Flowering Plants
-Dense-flowered Lupine,Lupinus densiflorus,0,0,Flowering Plants
-Prairie Lupine,Lupinus lepidus,0,0,Flowering Plants
-Oregon Lupine,Lupinus oreganus,0,0,Flowering Plants
-Streambank Lupine,Lupinus rivularis,0,0,Flowering Plants
-Cucumber Tree,Magnolia acuminata,0,0,Flowering Plants
-Coast Manroot,Marah oregana,0,0,Flowering Plants
-White Meconella,Meconella oregana,0,0,Flowering Plants
-Spiked Saxifrage,Micranthes spicata,0,0,Flowering Plants
-Coast Microseris,Microseris bigelovii,0,0,Flowering Plants
-Serpentine Stitchwort,Minuartia marcescens,0,0,Flowering Plants
-Dwarf Sandwort,Minuartia pusilla,0,0,Flowering Plants
-Red Mulberry,Morus rubra,0,0,Flowering Plants
-Eastern Prickly Pear Cactus,Opuntia humifusa,0,0,Flowering Plants
-Grand Coulee Owl-clover,Orthocarpus barbatus,0,0,Flowering Plants
-Rosy Owl-clover,Orthocarpus bracteosus,0,0,Flowering Plants
-Hare-footed Locoweed,Oxytropis lagopus,0,0,Flowering Plants
-American Ginseng,Panax quinquefolius,0,0,Flowering Plants
-Furbish's Lousewort,Pedicularis furbishiae,0,0,Flowering Plants
-Branched Phacelia,Phacelia ramosissima,0,0,Flowering Plants
-Broad Beech Fern,Phegopteris hexagonoptera,0,0,Ferns and Allies
-Blue Phlox,Phlox alyssifolia,0,0,Flowering Plants
-Showy Phlox,Phlox speciosa ssp. occidentalis,0,0,Flowering Plants
-Whitebark Pine,Pinus albicaulis,0,0,Conifers and Cycads
-Limber Pine,Pinus flexilis,0,0,Conifers and Cycads
-Fragrant Popcornflower,Plagiobothrys figuratus,0,0,Flowering Plants
-Slender Popcornflower,Plagiobothrys tenellus,0,0,Flowering Plants
-Heart-leaved Plantain,Plantago cordata,0,0,Flowering Plants
-Eastern Prairie Fringed Orchid,Platanthera leucophaea,0,0,Flowering Plants
-Western Prairie Fringed Orchid,Platanthera praeclara,0,0,Flowering Plants
-Yukon Podistera,Podistera yukonensis,0,0,Flowering Plants
-Van Brunt's Jacob's-ladder,Polemonium vanbruntiae,0,0,Flowering Plants
-Pink Milkwort,Polygala incarnata,0,0,Flowering Plants
-Lemmon's Holly Fern,Polystichum lemmonii,0,0,Ferns and Allies
-Mountain Holly Fern,Polystichum scopulinum,0,0,Ferns and Allies
-Hill's Pondweed,Potamogeton hillii,0,0,Flowering Plants
-Ogden's Pondweed,Potamogeton ogdenii,0,0,Flowering Plants
-Dwarf Woolly-heads,Psilocarphus brevissimus,0,0,Flowering Plants
-Tall Woolly-heads,Psilocarphus elatior,0,0,Flowering Plants
-Slender Woolly-heads,Psilocarphus tenellus var. tenellus,0,0,Flowering Plants
-Common Hoptree,Ptelea trifoliata,0,0,Flowering Plants
-Hoary Mountain-mint,Pycnanthemum incanum,0,0,Flowering Plants
-Shumard Oak,Quercus shumardii,0,0,Flowering Plants
-Water-plantain Buttercup,Ranunculus alismifolius,0,0,Flowering Plants
-California Buttercup,Ranunculus californicus,0,0,Flowering Plants
-Pacific Rhododendron,Rhododendron macrophyllum,0,0,Flowering Plants
-Tall Beakrush,Rhynchospora macrostachya,0,0,Flowering Plants
-Climbing Prairie Rose,Rosa setigera,0,0,Flowering Plants
-Toothcup,Rotala ramosior,0,0,Flowering Plants
-Plymouth Gentian,Sabatia kennedyana,0,0,Flowering Plants
-Sand-dune Short-capsuled Willow,Salix brachycarpa var. psammophila,0,0,Flowering Plants
-Green-scaled Willow,Salix chlorolepis,0,0,Flowering Plants
-Barrens Willow,Salix jejuna,0,0,Flowering Plants
-Blanket-leaved Willow,Salix silicicola,0,0,Flowering Plants
-Turnor's Willow,Salix turnorii,0,0,Flowering Plants
-Tyrrell's Willow,Salix tyrrellii,0,0,Flowering Plants
-Bear's-foot Sanicle,Sanicula arctopoides,0,0,Flowering Plants
-Purple Sanicle,Sanicula bipinnatifida,0,0,Flowering Plants
-Long's Bulrush,Scirpus longii,0,0,Flowering Plants
-White-top Aster,Sericocarpus rigidus,0,0,Flowering Plants
-Virginia Mallow,Sida hermaphrodita,0,0,Flowering Plants
-Coastal Scouler's Catchfly,Silene scouleri ssp. grandis,0,0,Flowering Plants
-Round-leaved Greenbrier,Smilax rotundifolia,0,0,Flowering Plants
-Gillman's Goldenrod,Solidago gillmanii,0,0,Flowering Plants
-Houghton's Goldenrod,Solidago houghtonii,0,0,Flowering Plants
-Riddell's Goldenrod,Solidago riddellii,0,0,Flowering Plants
-Showy Goldenrod,Solidago speciosa,0,0,Flowering Plants
-Ute Ladies’–tresses,Spiranthes diluvialis,0,0,Flowering Plants
-Sand Stitchwort,Stellaria arenicola,0,0,Flowering Plants
-Northern Mock Goldenweed,Stenotus borealis,0,0,Flowering Plants
-Rush Pink,Stephanomeria runcinata,0,0,Flowering Plants
-Wood-poppy,Stylophorum diphyllum,0,0,Flowering Plants
-Anticosti Aster,Symphyotrichum anticostense,0,0,Flowering Plants
-Short-rayed Alkali Aster,Symphyotrichum frondosum,0,0,Flowering Plants
-Gulf of St. Lawrence Aster,Symphyotrichum laurentianum,0,0,Flowering Plants
-Nahanni Aster,Symphyotrichum nahanniense,0,0,Flowering Plants
-Willowleaf Aster,Symphyotrichum praealtum,0,0,Flowering Plants
-Crooked-stem Aster,Symphyotrichum prenanthoides,0,0,Flowering Plants
-Western Silvery Aster,Symphyotrichum sericeum,0,0,Flowering Plants
-Short's Aster,Symphyotrichum shortii,0,0,Flowering Plants
-Annual Saltmarsh Aster,Symphyotrichum subulatum,0,0,Flowering Plants
-Yukon Aster,Symphyotrichum yukonense,0,0,Flowering Plants
-Fameflower,Talinum sediforme,0,0,Flowering Plants
-Floccose Tansy,Tanacetum huronense var. floccosum,0,0,Flowering Plants
-Virginia Goat's-rue,Tephrosia virginiana,0,0,Flowering Plants
-Lakeside Daisy,Tetraneuris herbacea,0,0,Flowering Plants
-Small-flowered Tonella,Tonella tenella,0,0,Flowering Plants
-Western Spiderwort,Tradescantia occidentalis,0,0,Flowering Plants
-Bashful Bulrush,Trichophorum planifolium,0,0,Flowering Plants
-Drooping Trillium,Trillium flexipes,0,0,Flowering Plants
-Nodding Pogonia,Triphora trianthophoros,0,0,Flowering Plants
-Bearded Owl-clover,Triphysaria versicolor,0,0,Flowering Plants
-Small-flowered Sand-verbena,Tripterocalyx micranthus,0,0,Flowering Plants
-Howell's Triteleia,Triteleia howellii,0,0,Flowering Plants
-Lindley's False Silverpuffs,Uropappus lindleyi,0,0,Flowering Plants
-Deerberry,Vaccinium stamineum,0,0,Flowering Plants
-Hairy Valerian,Valeriana edulis ssp. ciliata,0,0,Flowering Plants
-Fascicled Ironweed,Vernonia fasciculata,0,0,Flowering Plants
-Bird's-foot Violet,Viola pedata,0,0,Flowering Plants
-Yellow Montane Violet praemorsa subspecies,Viola praemorsa ssp. praemorsa,0,0,Flowering Plants
-Blunt-lobed Woodsia,Woodsia obtusa,0,0,Flowering Plants
-Soapweed,Yucca glauca,0,0,Flowering Plants
+Common Name,Scientific Name,num_papers,Group
+Pink Sand-verbena,Abronia umbellata,0,Flowering Plants
+Blackline Prickleback,Acantholumpenus mackayi,0,Fishes
+Cooper's Hawk,Accipiter cooperii,0,Birds
+Northern Goshawk atricapillus subspecies,Accipiter gentilis atricapillus,4,Birds
+Sharp-shinned Hawk,Accipiter striatus,1,Birds
+Large-headed Woolly Yarrow,Achillea millefolium var. megacephala,0,Flowering Plants
+Shortnose Sturgeon,Acipenser brevirostrum,0,Fishes
+Lake Sturgeon,Acipenser fulvescens,1,Fishes
+Green Sturgeon,Acipenser medirostris,0,Fishes
+Atlantic Sturgeon,Acipenser oxyrinchus,0,Fishes
+White Sturgeon,Acipenser transmontanus,0,Fishes
+Blanchard's Cricket Frog,Acris blanchardi,0,Amphibians
+Chiselmouth,Acrocheilus alutaceus,0,Fishes
+Rocky Mountain Capshell,Acroloxus coloradensis,0,Snails
+Mountain Crab-eye,Acroscyphus sphaerophoroides,0,Lichens
+Tall Bugbane,Actaea elata,0,Flowering Plants
+Pacific Pond Turtle,Actinemys marmorata,0,Reptiles
+Southern Maidenhair Fern,Adiantum capillus-veneris,0,Ferns and Allies
+Western Grebe,Aechmophorus occidentalis,0,Birds
+Northern Saw-whet Owl brooksi subspecies,Aegolius acadicus brooksi,1,Birds
+Boreal Owl,Aegolius funereus,1,Birds
+Red-tailed Leafhopper,Aflexia rubranura,0,Insects
+Rough Agalinis,Agalinis aspera,0,Flowering Plants
+Gattinger's Agalinis,Agalinis gattingeri,0,Flowering Plants
+Skinner's Agalinis,Agalinis skinneriana,0,Flowering Plants
+Dwarf Wedgemussel,Alasmidonta heterodon,0,Clams
+Brook Floater,Alasmidonta varicosa,0,Clams
+Colicroot,Aletris farinosa,0,Flowering Plants
+Broad-banded Forestsnail,Allogona profunda,0,Snails
+Oregon Forestsnail,Allogona townsendiana,0,Snails
+Y-Prickleback,Allolumpenus hypochromus,0,Fishes
+Blueback Herring,Alosa aestivalis,0,Fishes
+Thorny Skate,Amblyraja radiata,0,Fishes
+Northwestern Salamander,Ambystoma gracile,0,Amphibians
+Jefferson Salamander,Ambystoma jeffersonianum,2,Amphibians
+Unisexual Ambystoma,Ambystoma laterale - (2) jeffersonianum,1,Amphibians
+Long-toed Salamander,Ambystoma macrodactylum,0,Amphibians
+Western Tiger Salamander,Ambystoma mavortium,0,Amphibians
+Small-mouthed Salamander,Ambystoma texanum,0,Amphibians
+Eastern Tiger Salamander,Ambystoma tigrinum,0,Amphibians
+Scarlet Ammannia,Ammannia robusta,0,Flowering Plants
+Eastern Sand Darter,Ammocrypta pellucida,1,Fishes
+Baird's Sparrow,Ammodramus bairdii,3,Birds
+Henslow's Sparrow,Ammodramus henslowii,0,Birds
+Nelson's Sharp-tailed Sparrow,Ammodramus nelsoni,2,Birds
+"Grasshopper Sparrow, pratensis subspecies",Ammodramus savannarum pratensis,2,Birds
+Northern Wolffish,Anarhichas denticulatus,0,Fishes
+Atlantic Wolffish,Anarhichas lupus,0,Fishes
+Spotted Wolffish,Anarhichas minor,0,Fishes
+Bering Wolffish,Anarhichas orientalis,0,Fishes
+Wolf-eel,Anarrhichthys ocellatus,0,Fishes
+Edwards' Beach Moth,Anarta edwardsii,0,Insects
+Western Toad,Anaxyrus boreas,2,Amphibians
+Great Plains Toad,Anaxyrus cognatus,1,Amphibians
+Fowler's Toad,Anaxyrus fowleri,2,Amphibians
+Wandering Salamander,Aneides vagrans,0,Amphibians
+American Eel,Anguilla rostrata,0,Fishes
+Western Banded Tigersnail,Anguispira kochi occidentalis,0,Snails
+Manitoba Oakworm Moth,Anisota manitobensis,0,Insects
+Stoloniferous Pussytoes,Antennaria flagellaris,0,Flowering Plants
+Sprague's Pipit,Anthus spragueii,2,Birds
+Eastern Whip-poor-will,Antrostomus vociferus,2,Birds
+Pallid Bat,Antrozous pallidus,0,Mammals
+Black-foam Lichen,Anzia colpodes,0,Lichens
+Spiny Softshell,Apalone spinifera,0,Reptiles
+Mountain Beaver,Aplodontia rufa,0,Mammals
+Mormon Metalmark,Apodemia mormo,0,Insects
+Spike-lip Crater,Appalachina sayana,0,Snails
+Brown Cat Shark,Apristurus brunneus,0,Fishes
+Golden Eagle,Aquila chrysaetos,5,Birds
+Great Blue Heron fannini subspecies,Ardea herodias fannini,1,Birds
+Pink-footed Shearwater,Ardenna creatopus,0,Birds
+Vivid Dancer,Argia vivida,0,Insects
+Green Dragon,Arisaema dracontium,0,Flowering Plants
+Forked Three-awned Grass,Aristida basiramea,0,Flowering Plants
+Athabasca Thrift,Armeria maritima ssp. interior,0,Flowering Plants
+Griscom’s Arnica,Arnica griscomii ssp. griscomii,0,Flowering Plants
+Tuberous Indian-plantain,Arnoglossum plantagineum,0,Flowering Plants
+Wood's Sagebrush,Artemisia rupestris ssp. woodii,0,Flowering Plants
+Rocky Mountain Tailed Frog,Ascaphus montanus,0,Amphibians
+Coastal Tailed Frog,Ascaphus truei,0,Amphibians
+Four-leaved Milkweed,Asclepias quadrifolia,0,Flowering Plants
+Spinynose Sculpin,Asemichthys taylori,0,Fishes
+Short-eared Owl,Asio flammeus,1,Birds
+American Hart's-tongue Fern,Asplenium scolopendrium var. americanum,0,Ferns and Allies
+Fernald's Milk-vetch,Astragalus robbinsii var. fernaldii,0,Flowering Plants
+Burrowing Owl,Athene cunicularia,2,Birds
+Smooth Yellow False Foxglove,Aureolaria flava,0,Flowering Plants
+Fern-leaved Yellow False Foxglove,Aureolaria pedicularia,0,Flowering Plants
+Downy Yellow False Foxglove,Aureolaria virginica,0,Flowering Plants
+Mexican Mosquito-fern,Azolla mexicana,0,Ferns and Allies
+Eastern Baccharis,Baccharis halimifolia,0,Flowering Plants
+Bowhead Whale,Balaena mysticetus,1,Mammals
+Common Minke Whale North Pacific subspecies,Balaenoptera acutorostrata scammonii,0,Mammals
+Sei Whale,Balaenoptera borealis,1,Mammals
+Blue Whale,Balaenoptera musculus,1,Mammals
+Fin Whale,Balaenoptera physalus,4,Mammals
+Deltoid Balsamroot,Balsamorhiza deltoidea,0,Flowering Plants
+Atlantic Mud-piddock,Barnea truncata,0,Clams
+Branched Bartonia,Bartonia paniculata ssp. paniculata,0,Flowering Plants
+Rigid Apple Moss,Bartramia aprica,0,Mosses
+Haller's Apple Moss,Bartramia halleriana,0,Mosses
+Sandpaper Skate,Bathyraja interrupta,0,Fishes
+Baird's Beaked Whale,Berardius bairdii,0,Mammals
+Cherry Birch,Betula lenta,0,Flowering Plants
+Vancouver Island Beggarticks,Bidens amplissima,0,Flowering Plants
+Plains Bison,Bison bison bison,0,Mammals
+Quebec Rockcress,Boechera quebecensis,0,Flowering Plants
+Rusty-patched Bumble Bee,Bombus affinis,0,Insects
+Gypsy Cuckoo Bumble Bee,Bombus bohemicus,0,Insects
+Western Bumble Bee occidentalis subspecies,Bombus occidentalis occidentalis,0,Insects
+American Bumble Bee,Bombus pensylvanicus,0,Insects
+Suckley’s Cuckoo Bumble Bee,Bombus suckleyi,0,Insects
+Yellow-banded Bumble Bee,Bombus terricola,0,Insects
+Buffalograss,Bouteloua dactyloides,0,Flowering Plants
+Marbled Murrelet,Brachyramphus marmoratus,4,Birds
+Fernald's Braya,Braya fernaldii,0,Flowering Plants
+Long's Braya,Braya longii,0,Flowering Plants
+Hairy Braya,Braya pilosa,0,Flowering Plants
+Large-flowered Brickellia,Brickellia grandiflora,0,Flowering Plants
+Cusk,Brosme brosme,1,Fishes
+Roell's Brotherella Moss,Brotherella roellii,0,Mosses
+Hungerford's Crawling Water Beetle,Brychius hungerfordi,0,Insects
+Spoon-leaved Moss,Bryoandersonia illecebra,0,Mosses
+Columbian Carpet Moss,Bryoerythrophyllum columbianum,0,Mosses
+Snowy Owl,Bubo scandiaca,0,Birds
+Barrow's Goldeneye,Bucephala islandica,0,Birds
+Bluehearts,Buchnera americana,0,Flowering Plants
+Canadian Toad,Bufo hemiophrys,0,Amphibians
+Red-tailed Hawk,Buteo jamaicensis,2,Birds
+Rough-legged Hawk,Buteo lagopus,1,Birds
+Red-shouldered Hawk,Buteo lineatus,2,Birds
+Ferruginous Hawk,Buteo regalis,0,Birds
+Lark Bunting,Calamospiza melanocorys,0,Birds
+Chestnut-collared Longspur,Calcarius ornatus,3,Birds
+Red Knot rufa subspecies,Calidris canutus rufa,0,Birds
+Frosted Elfin,Callophrys irus,1,Insects
+Northern Fur Seal,Callorhinus ursinus,0,Mammals
+Lyall's Mariposa Lily,Calochortus lyallii,0,Flowering Plants
+Wild Hyacinth,Camassia scilloides,0,Flowering Plants
+Contorted-pod Evening-primrose,Camissonia contorta,0,Flowering Plants
+Central Stoneroller,Campostoma anomalum,0,Fishes
+Labrador Duck,Camptorhynchus labradorius,0,Birds
+Arctic Grey Wolf,Canis lupus arctos,1,Mammals
+Eastern Wolf,Canis sp. cf. lycaon,0,Mammals
+White Shark,Carcharodon carcharias,4,Fishes
+Canada Warbler,Cardellina canadensis,3,Birds
+Loggerhead Sea Turtle,Caretta caretta,3,Reptiles
+Juniper Sedge,Carex juniperorum,0,Flowering Plants
+False Hop Sedge,Carex lupuliformis,0,Flowering Plants
+Nebraska Sedge,Carex nebrascensis,0,Flowering Plants
+Baikal Sedge,Carex sabulosa,0,Flowering Plants
+Foothill Sedge,Carex tumulicola,0,Flowering Plants
+American Chestnut,Castanea dentata,0,Flowering Plants
+Golden Paintbrush,Castilleja levisecta,0,Flowering Plants
+Cliff Paintbrush,Castilleja rupicola,0,Flowering Plants
+Hairy Paintbrush,Castilleja tenuis,0,Flowering Plants
+Victoria's Owl-clover,Castilleja victoriae,0,Flowering Plants
+Bicknell's Thrush,Catharus bicknelli,2,Birds
+Canyon Wren,Catherpes mexicanus,0,Birds
+Mountain Sucker,Catostomus platyrhynchus,0,Fishes
+Salish Sucker,Catostomus sp. cf. catostomus,0,Fishes
+Dwarf Hackberry,Celtis tenuifolia,0,Flowering Plants
+Muhlenberg's Centaury,Centaurium muehlenbergii,0,Flowering Plants
+Greater Sage-Grouse urophasianus subspecies,Centrocercus urophasianus urophasianus,2,Birds
+Phantom Orchid,Cephalanthera austiniae,0,Flowering Plants
+Basking Shark,Cetorhinus maximus,0,Fishes
+Flexuous Golden Stubble Lichen,Chaenotheca servitii,0,Lichens
+Chimney Swift,Chaetura pelagica,1,Birds
+Piping Plover,Charadrius melodus,3,Birds
+Mountain Plover,Charadrius montanus,1,Birds
+Northern Rubber Boa,Charina bottae,0,Reptiles
+Snapping Turtle,Chelydra serpentina,2,Reptiles
+Smooth Goosefoot,Chenopodium subglabrum,0,Flowering Plants
+Spotted Wintergreen,Chimaphila maculata,0,Flowering Plants
+Black Tern,Chlidonias niger,1,Birds
+Common Nighthawk,Chordeiles minor,6,Birds
+Eastern Painted Turtle,Chrysemys picta picta,0,Reptiles
+Gibson's Big Sand Tiger Beetle,Cicindela formosa gibsoni,0,Insects
+Cobblestone Tiger Beetle,Cicindela marginipennis,1,Insects
+Wallis' Dark Saltflat Tiger Beetle,Cicindela parowana wallisi,0,Insects
+Northern Barrens Tiger Beetle,Cicindela patruela,0,Insects
+Victorin's Water-hemlock,Cicuta maculata var. victorinii,0,Flowering Plants
+Northern Harrier,Circus cyaneus,1,Birds
+Hill's Thistle,Cirsium hillii,0,Flowering Plants
+Pitcher's Thistle,Cirsium pitcheri,0,Flowering Plants
+Sedge Wren,Cistothorus platensis,1,Birds
+Spotted Turtle,Clemmys guttata,0,Reptiles
+Sweet Pepperbush,Clethra alnifolia,0,Flowering Plants
+Redside Dace,Clinostomus elongatus,1,Fishes
+Nine-spotted Lady Beetle,Coccinella novemnotata,0,Insects
+Transverse Lady Beetle,Coccinella transversoguttata,0,Insects
+Evening Grosbeak,Coccothraustes vespertinus,2,Birds
+Maritime Ringlet,Coenonympha nipisiquit,0,Insects
+Northern Bobwhite,Colinus virginianus,4,Birds
+Crumpled Tarpaper Lichen,Collema coniophilum,0,Lichens
+Spring Blue-eyed Mary,Collinsia verna,0,Flowering Plants
+Slender Collomia,Collomia tenella,0,Flowering Plants
+Western Yellow-bellied Racer,Coluber constrictor mormon,0,Reptiles
+Sharp-tailed Snake,Contia tenuis,0,Reptiles
+Olive-sided Flycatcher,Contopus cooperi,5,Birds
+Eastern Wood-pewee,Contopus virens,2,Birds
+Columbia Dune Moth,Copablepharon absidum,0,Insects
+Sand-verbena Moth,Copablepharon fuscum,0,Insects
+Pale Yellow Dune Moth,Copablepharon grandis,0,Insects
+Dusky Dune Moth,Copablepharon longipenne,0,Insects
+Longjaw Cisco,Coregonus alpenae,0,Fishes
+Lake Whitefish,Coregonus clupeaformis,1,Fishes
+Bloater,Coregonus hoyi,0,Fishes
+Atlantic Whitefish,Coregonus huntsmani,0,Fishes
+Deepwater Cisco,Coregonus johannae,0,Fishes
+Kiyi,Coregonus kiyi,1,Fishes
+Bering Cisco,Coregonus laurettae,0,Fishes
+European Whitefish,Coregonus lavaretus,0,Fishes
+Blackfin Cisco,Coregonus nigripinnis,0,Fishes
+Shortnose Cisco,Coregonus reighardi,0,Fishes
+Spring Cisco,Coregonus sp.,0,Fishes
+Shortjaw Cisco,Coregonus zenithicus,0,Fishes
+Pink Coreopsis,Coreopsis rosea,0,Flowering Plants
+Eastern Flowering Dogwood,Cornus florida,0,Flowering Plants
+Scouler's Corydalis,Corydalis scouleri,0,Flowering Plants
+Roundnose Grenadier,Coryphaenoides rupestris,0,Fishes
+Coastrange Sculpin,Cottus aleuticus,0,Fishes
+Shorthead Sculpin,Cottus confusus,0,Fishes
+Columbia Sculpin,Cottus hubbsi,0,Fishes
+Spoonhead Sculpin,Cottus ricei,1,Fishes
+Rocky Mountain Sculpin,Cottus sp.,0,Fishes
+Yellow Rail,Coturnicops noveboracensis,4,Birds
+Lake Chub,Couesius plumbeus,0,Fishes
+Tiny Tassel,Crossidium seriatum,0,Mosses
+Timber Rattlesnake,Crotalus horridus,0,Reptiles
+Western Rattlesnake,Crotalus oreganus,0,Reptiles
+Prairie Rattlesnake,Crotalus viridis,0,Reptiles
+Tiny Cryptantha,Cryptantha minima,0,Flowering Plants
+Puget Oregonian,Cryptomastix devia,0,Snails
+Lumpfish,Cyclopterus lumpus,0,Fishes
+Trumpeter Swan,Cygnus buccinator,0,Birds
+Black-tailed Prairie Dog,Cynomys ludovicianus,0,Mammals
+Small White Lady's-slipper,Cypripedium candidum,0,Flowering Plants
+Black Swift,Cypseloides niger,0,Birds
+Hooded Seal,Cystophora cristata,0,Mammals
+Hairy Prairie-clover,Dalea villosa,0,Flowering Plants
+Dalton’s Moss,Daltonia splachnoides,0,Mosses
+Monarch,Danaus plexippus,2,Insects
+Blue Felt Lichen,Degelia plumbea,0,Lichens
+Beluga Whale,Delphinapterus leucas,0,Mammals
+Short-beaked Common Dolphin,Delphinus delphis,1,Mammals
+Leatherback Sea Turtle,Dermochelys coriacea,1,Reptiles
+Evening Fieldslug,Deroceras hesperium,0,Snails
+Mackenzie Hairgrass,Deschampsia mackenzieana,0,Flowering Plants
+Illinois Tick-trefoil,Desmodium illinoense,0,Flowering Plants
+Northern Dusky Salamander,Desmognathus fuscus,0,Amphibians
+Allegheny Mountain Dusky Salamander,Desmognathus ochrophaeus,0,Amphibians
+Coastal Giant Salamander,Dicamptodon tenebrosus,0,Amphibians
+Yellow Scarab Hunter Wasp,Dielis pilipes,0,Insects
+Ord's Kangaroo Rat,Dipodomys ordii,0,Mammals
+Barndoor Skate,Dipturus laevis,0,Fishes
+Bobolink,Dolichonyx oryzivorus,0,Birds
+Long-stalked Whitlow-grass,Draba juvenilis,0,Flowering Plants
+Puvirnituq Mountain Draba,Draba puvirnituqii,0,Flowering Plants
+Yukon Draba,Draba yukonensis,0,Flowering Plants
+Thread-leaved Sundew,Drosera filiformis,0,Flowering Plants
+Coastal Wood Fern,Dryopteris arguta,0,Ferns and Allies
+Passenger Pigeon,Ectopistes migratorius,0,Birds
+Okanagan Efferia,Efferia okanagana,0,Insects
+Purple Spikerush,Eleocharis atropurpurea,0,Ferns and Allies
+Horsetail Spike-rush,Eleocharis equisetoides,0,Ferns and Allies
+Bent Spike-rush,Eleocharis geniculata,0,Ferns and Allies
+Tubercled Spike-rush,Eleocharis tuberculosa,0,Ferns and Allies
+Northern Alligator Lizard,Elgaria coerulea,0,Reptiles
+Acadian Flycatcher,Empidonax virescens,3,Birds
+Grey Flycatcher,Empidonax wrightii,0,Birds
+Blanding's Turtle,Emydoidea blandingii,0,Reptiles
+False Rue-anemone,Enemion biternatum,1,Flowering Plants
+Sea Otter,Enhydra lutris,2,Mammals
+Ensatina,Ensatina eschscholtzii,0,Amphibians
+Schleicher's Silk Moss,Entodon schleicheri,0,Mosses
+Vancouver Lamprey,Entosphenus macrostomus,0,Fishes
+Banded Cord-moss,Entosthodon fascicularis,0,Mosses
+Rusty Cord-moss,Entosthodon rubiginosus,0,Mosses
+Macropis Cuckoo Bee,Epeoloides pilosulus,0,Insects
+Dense Spike-primrose,Epilobium densiflorum,0,Flowering Plants
+Brook Spike-primrose,Epilobium torreyi,0,Flowering Plants
+Northern Riffleshell,Epioblasma rangiana,1,Clams
+Snuffbox mussel,Epioblasma triquetra,0,Clams
+Giant Helleborine,Epipactis gigantea,0,Flowering Plants
+Streaked Horned Lark,Eremophila alpestris strigata,0,Birds
+Rabbit-brush Goldenweed,Ericameria bloomeri,0,Flowering Plants
+Leiberg's Fleabane,Erigeron leibergii,0,Flowering Plants
+Provancher's Fleabane,Erigeron philadelphicus var. provancheri,0,Flowering Plants
+Dwarf Fleabane,Erigeron radicatus,0,Flowering Plants
+Bearded Seal,Erignathus barbatus,0,Mammals
+Gravel Chub,Erimystax x-punctatus,0,Fishes
+Lake Chubsucker,Erimyzon sucetta,0,Fishes
+Parker's Pipewort,Eriocaulon parkeri,0,Flowering Plants
+Vole Ears Lichen,Erioderma mollissimum,1,Lichens
+Boreal Felt Lichen,Erioderma pedicellatum,1,Lichens
+Yukon Wild Buckwheat,Eriogonum flavum var. aquilinum,0,Flowering Plants
+Mottled Duskywing,Erynnis martialis,0,Insects
+Eastern Persius Duskywing,Erynnis persius persius,0,Insects
+Narrow-leaved Wallflower,Erysimum angustatum,0,Flowering Plants
+Grey Whale,Eschrichtius robustus,0,Mammals
+Grass Pickerel,Esox americanus vermiculatus,0,Fishes
+Chain Pickerel,Esox niger,0,Fishes
+Greenside Darter,Etheostoma blennioides,0,Fishes
+Least Darter,Etheostoma microperca,0,Fishes
+Tessellated Darter,Etheostoma olmstedi,0,Fishes
+North Atlantic Right Whale,Eubalaena glacialis,3,Mammals
+North Pacific Right Whale,Eubalaena japonica,1,Mammals
+Island Marble,Euchloe ausonides insulanus,0,Insects
+Spotted Bat,Euderma maculatum,0,Mammals
+Steller Sea Lion,Eumetopias jubatus,0,Mammals
+Rusty Blackbird,Euphagus carolinus,4,Birds
+Taylor's Checkerspot,Euphydryas editha taylori,0,Insects
+Dun Skipper vestris subspecies,Euphyes vestris vestris,0,Insects
+White Wood Aster,Eurybia divaricata,0,Flowering Plants
+Cutlip Minnow,Exoglossum maxillingua,0,Fishes
+Silver Hair Moss,Fabronia pusilla,0,Mosses
+Merlin,Falco columbarius,0,Birds
+Prairie Falcon,Falco mexicanus,0,Birds
+Peregrine Falcon anatum subspecies,Falco peregrinus anatum,0,Birds
+Gyrfalcon,Falco rusticolus,0,Birds
+Shortface Lanx,Fisherola nuttallii,0,Snails
+Pygmy Pocket Moss,Fissidens exilis,0,Mosses
+Poor Pocket Moss,Fissidens pauperculus,0,Mosses
+False Mermaid,Floerkea proserpinacoides,0,Flowering Plants
+American Columbo,Frasera caroliniensis,0,Flowering Plants
+Black Ash,Fraxinus nigra,0,Flowering Plants
+Blue Ash,Fraxinus quadrangulata,0,Flowering Plants
+American Coot,Fulica americana,1,Birds
+Banded Killifish,Fundulus diaphanus,0,Fishes
+Blackstripe Topminnow,Fundulus notatus,0,Fishes
+White-rimmed Shingle Lichen,Fuscopannaria leucosticta,0,Lichens
+Atlantic Cod,Gadus morhua,5,Fishes
+Tope,Galeorhinus galeus,0,Fishes
+Paxton Lake Benthic Threespine Stickleback,Gasterosteus aculeatus,1,Fishes
+Yellow-billed Loon,Gavia adamsii,0,Birds
+Common Loon,Gavia immer,0,Birds
+White Prairie Gentian,Gentiana alba,0,Flowering Plants
+Victorin's Gentian,Gentianopsis virgata ssp. victorinii,0,Flowering Plants
+Plains Pocket Gopher,Geomys bursarius,0,Mammals
+Dune Tachinid Fly,Germaria angustata,0,Insects
+Eastern Mountain Avens,Geum peckii,0,Flowering Plants
+Southern Flying Squirrel,Glaucomys volans,3,Mammals
+Short-finned Pilot Whale,Globicephala macrorhynchus,0,Mammals
+Long-finned Pilot Whale,Globicephala melas,0,Mammals
+Wood Turtle,Glyptemys insculpta,1,Reptiles
+Georgia Basin Bog Spider,Gnaphosa snohomish,0,Arachnids
+Skillet Clubtail,Gomphus ventricosus,0,Insects
+Rocky Mountain Ridged Mussel,Gonidea angulata,0,Clams
+Island Tiger Moth,Grammia complicata,0,Insects
+Risso's Dolphin,Grampus griseus,1,Mammals
+Northern Map Turtle,Graptemys geographica,0,Reptiles
+Whooping Crane,Grus americana,2,Birds
+Sandhill Crane tabida subspecies,Grus canadensis tabida,0,Birds
+Wolverine,Gulo gulo,5,Mammals
+Kentucky Coffee-tree,Gymnocladus dioicus,0,Flowering Plants
+Spring Salamander,Gyrinophilus porphyriticus,0,Amphibians
+Okanogan Stickseed,Hackelia ciliata,0,Flowering Plants
+Bald Eagle,Haliaeetus leucocephalus,3,Birds
+Grey Seal,Halichoerus grypus,0,Mammals
+Slender Mouse-ear-cress,Halimolobos virgata,0,Flowering Plants
+Northern Abalone,Haliotis kamtschatkana,0,Snails
+Reversed Haploa Moth,Haploa reversa,0,Insects
+Porsild's Bryum,Haplodontium macrocarpum,0,Mosses
+Four-toed Salamander,Hemidactylium scutatum,0,Amphibians
+Nuttall's Sheep Moth,Hemileuca nuttalli,0,Insects
+Bogbean Buckmoth,Hemileuca sp.,0,Insects
+Dromedary Jumping-slug,Hemphillia dromedarius,0,Snails
+Warty Jumping-slug,Hemphillia glandulosa,0,Snails
+Oregon Branded Skipper,Hesperia colorado oregonia,0,Insects
+Dakota Skipper,Hesperia dacotae,0,Insects
+Ottoe Skipper,Hesperia ottoe,0,Insects
+Dwarf Hesperochiron,Hesperochiron pumilus,0,Flowering Plants
+Seaside Centipede Lichen,Heterodermia sitchensis,0,Lichens
+Plains Hog-nosed Snake,Heterodon nasicus,0,Reptiles
+Eastern Hog-nosed Snake,Heterodon platirhinos,0,Reptiles
+Bluntnose Sixgill Shark,Hexanchus griseus,0,Fishes
+Swamp Rose-mallow,Hibiscus moscheutos,0,Flowering Plants
+American Plaice,Hippoglossoides platessoides,0,Fishes
+Atlantic Halibut,Hippoglossus hippoglossus,0,Fishes
+Barn Swallow,Hirundo rustica,4,Birds
+Harlequin Duck,Histrionicus histrionicus,0,Birds
+Little Barley,Hordeum pusillum,0,Flowering Plants
+Western Silvery Minnow,Hybognathus argyritis,0,Fishes
+Plains Minnow,Hybognathus placitus,0,Fishes
+Eastern Silvery Minnow,Hybognathus regius,0,Fishes
+Goldenseal,Hydrastis canadensis,0,Flowering Plants
+Water Pennywort,Hydrocotyle umbellata,0,Flowering Plants
+Cope's Grey Treefrog,Hyla chrysoscelis,1,Amphibians
+Wood Thrush,Hylocichla mustelina,3,Birds
+Northern Bottlenose Whale,Hyperoodon ampullatus,0,Mammals
+Greenish-white Grasshopper,Hypochlora alba,0,Insects
+Seaside Bone Lichen,Hypogymnia heterophylla,0,Lichens
+Desert Nightsnake,Hypsiglena chlorophaea,0,Reptiles
+Chestnut Lamprey,Ichthyomyzon castaneus,0,Fishes
+Northern Brook Lamprey,Ichthyomyzon fossor,0,Fishes
+Silver Lamprey,Ichthyomyzon unicuspis,0,Fishes
+Yellow-breasted Chat virens subspecies,Icteria virens virens,2,Birds
+Bigmouth Buffalo,Ictiobus cyprinellus,0,Fishes
+Black Buffalo,Ictiobus niger,0,Fishes
+Shagreen,Inflectarius inflectus,0,Snails
+Dwarf Lake Iris,Iris lacustris,0,Flowering Plants
+Western Blue Flag,Iris missouriensis,0,Flowering Plants
+Bolander's Quillwort,Isoetes bolanderi,0,Ferns and Allies
+Engelmann's Quillwort,Isoetes engelmannii,0,Ferns and Allies
+Columbia Quillwort,Isoetes minima,0,Ferns and Allies
+Prototype Quillwort,Isoetes prototypus,0,Ferns and Allies
+Delicate Luster Moss,Isopterygium tenerum,0,Mosses
+Small Whorled Pogonia,Isotria medeoloides,0,Flowering Plants
+Large Whorled Pogonia,Isotria verticillata,0,Flowering Plants
+Shortfin Mako,Isurus oxyrinchus,0,Fishes
+Least Bittern,Ixobrychus exilis,4,Birds
+Butternut,Juglans cinerea,0,Flowering Plants
+New Jersey Rush,Juncus caesariensis,0,Flowering Plants
+Kellogg's Rush,Juncus kelloggii,0,Flowering Plants
+American Water-willow,Justicia americana,0,Flowering Plants
+Pygmy Sperm Whale,Kogia breviceps,0,Mammals
+Dwarf Sperm Whale,Kogia simus,1,Mammals
+Pygmy Slug,Kootenaia burkei,0,Snails
+Brook Silverside,Labidesthes sicculus,1,Fishes
+Redroot,Lachnanthes caroliniana,0,Flowering Plants
+Atlantic White-sided Dolphin,Lagenorhynchus acutus,1,Mammals
+White-beaked Dolphin,Lagenorhynchus albirostris,1,Mammals
+Pacific White-sided Dolphin,Lagenorhynchus obliquidens,0,Mammals
+Porbeagle,Lamna nasus,0,Fishes
+Western Brook Lamprey,Lampetra richardsoni,0,Fishes
+Eastern Milksnake,Lampropeltis triangulum,0,Reptiles
+Yellow Lampmussel,Lampsilis cariosa,0,Clams
+Wavy-rayed Lampmussel,Lampsilis fasciola,0,Clams
+Loggerhead Shrike Eastern subspecies,Lanius ludovicianus ssp.,1,Birds
+Sable Island Sweat Bee,Lasioglossum sablense,0,Insects
+Rayless Goldfields,Lasthenia glaberrima,0,Flowering Plants
+Silky Beach Pea,Lathyrus littoralis,0,Flowering Plants
+Impoverished Pinweed,Lechea intermedia var. depauperata,0,Flowering Plants
+Beach Pinweed,Lechea maritima,0,Flowering Plants
+Sagebrush Vole,Lemmiscus curtatus,0,Mammals
+Spotted Gar,Lepisosteus oculatus,0,Fishes
+Redbreast Sunfish,Lepomis auritus,0,Fishes
+Green Sunfish,Lepomis cyanellus,0,Fishes
+Warmouth,Lepomis gulosus,0,Fishes
+Orangespotted Sunfish,Lepomis humilis,0,Fishes
+Northern Sunfish,Lepomis peltastes,0,Fishes
+Batwing Vinyl Lichen,Leptogium platynum,0,Lichens
+Peacock Vinyl Lichen,Leptogium polycarpum,0,Lichens
+Flooded Jellyskin,Leptogium rivulare,0,Lichens
+Slender Bush-clover,Lespedeza virginica,0,Flowering Plants
+Alaskan Brook Lamprey,Lethenteron alaskense,0,Fishes
+Winter Skate,Leucoraja ocellata,0,Fishes
+Tweedy's Lewisia,Lewisiopsis tweedyi,0,Flowering Plants
+Dense Blazing Star,Liatris spicata,0,Flowering Plants
+Eastern Pondmussel,Ligumia nasuta,0,Clams
+Eastern Lilaeopsis,Lilaeopsis chinensis,0,Flowering Plants
+Weidemeyer's Admiral,Limenitis weidemeyerii,0,Insects
+Macoun's Meadowfoam,Limnanthes macounii,0,Flowering Plants
+Hudsonian Godwit,Limosa haemastica,0,Birds
+Purple Twayblade,Liparis liliifolia,0,Flowering Plants
+Small-flowered Lipocarpha,Lipocarpha micrantha,0,Flowering Plants
+Northern Right Whale Dolphin,Lissodelphis borealis,0,Mammals
+Northern Leopard Frog,Lithobates pipiens,2,Amphibians
+Smoker’s Lung Lichen,Lobaria retigera,0,Lichens
+Gray's Desert-parsley,Lomatium grayi,0,Flowering Plants
+Goldencrest,Lophiola aurea,0,Flowering Plants
+Eelgrass Limpet,Lottia alveus alveus,0,Snails
+Seaside Birds-foot Lotus,Lotus formosissimus,0,Flowering Plants
+Bog Bird’s-foot Trefoil,Lotus pinnatus,0,Flowering Plants
+Red Crossbill percna subspecies,Loxia curvirostra percna,0,Birds
+Dense-flowered Lupine,Lupinus densiflorus,0,Flowering Plants
+Prairie Lupine,Lupinus lepidus,0,Flowering Plants
+Oregon Lupine,Lupinus oreganus,0,Flowering Plants
+Streambank Lupine,Lupinus rivularis,0,Flowering Plants
+Striped Shiner,Luxilus chrysocephalus,0,Fishes
+Canada Lynx,Lynx canadensis,4,Mammals
+Squat Duskysnail,Lyogyrus granum,0,Snails
+Redfin Shiner,Lythrurus umbratilis,0,Fishes
+Silver Chub,Macrhybopsis storeriana,0,Fishes
+Roughhead Grenadier,Macrourus berglax,0,Fishes
+Magnum Mantleslug,Magnipelta mycophaga,0,Snails
+Cucumber Tree,Magnolia acuminata,1,Flowering Plants
+Smooth Skate,Malacoraja senta,0,Fishes
+Coast Manroot,Marah oregana,0,Flowering Plants
+Vancouver Island Marmot,Marmota vancouverensis,0,Mammals
+American Marten,Martes americana atrata,5,Mammals
+White Meconella,Meconella oregana,0,Flowering Plants
+Humpback Whale,Megaptera novaeangliae,7,Mammals
+Eastern Screech-owl,Megascops asio,0,Birds
+Western Screech-owl kennicottii subspecies,Megascops kennicottii kennicottii,1,Birds
+Red-headed Woodpecker,Melanerpes erythrocephalus,0,Birds
+Lewis's Woodpecker,Melanerpes lewis,0,Birds
+Magdalen Islands Grasshopper,Melanoplus madeleineae,0,Insects
+Dark-banded Flower Gem,Melaporphyria immortua,0,Insects
+Toothed Globe,Mesodon zaletus,0,Snails
+Sowerby's Beaked Whale,Mesoplodon bidens,0,Mammals
+Hubbs' Beaked Whale,Mesoplodon carlhubbsi,0,Mammals
+Blainville's Beaked Whale,Mesoplodon densirostris,2,Mammals
+True's Beaked Whale,Mesoplodon mirus,0,Mammals
+Stejneger's Beaked Whale,Mesoplodon stejneri,0,Mammals
+Spiked Saxifrage,Micranthes spicata,0,Flowering Plants
+Nugget Moss,Microbryum vlassovii,0,Mosses
+Coast Microseris,Microseris bigelovii,0,Flowering Plants
+Woodland Vole,Microtus pinetorum,0,Mammals
+Serpentine Stitchwort,Minuartia marcescens,0,Flowering Plants
+Dwarf Sandwort,Minuartia pusilla,0,Flowering Plants
+Spotted Sucker,Minytrema melanops,0,Fishes
+Northern Elephant Seal,Mirounga angustirostris,0,Mammals
+Narwhal,Monodon monoceros,0,Mammals
+Striped Bass,Morone saxatilis,3,Fishes
+Red Mulberry,Morus rubra,0,Flowering Plants
+River Redhorse,Moxostoma carinatum,0,Fishes
+Black Redhorse,Moxostoma duquesnei,0,Fishes
+Golden Redhorse,Moxostoma erythrurum,0,Fishes
+Copper Redhorse,Moxostoma hubbsi,0,Fishes
+Ermine haidarum subspecies,Mustela erminea haidarum,0,Mammals
+Prairie Long-tailed Weasel,Mustela frenata longicauda,0,Mammals
+Sea Mink,Mustela macrodon,0,Mammals
+Black-footed Ferret,Mustela nigripes,0,Mammals
+Keen's Long-eared Bat,Myotis keenii,0,Mammals
+Little Brown Myotis,Myotis lucifugus,1,Mammals
+Northern Myotis,Myotis septentrionalis,2,Mammals
+Fringed Bat,Myotis thysanodes,0,Mammals
+Fourhorn Sculpin,Myoxocephalus quadricornis,0,Fishes
+Deepwater Sculpin,Myoxocephalus thompsonii,0,Fishes
+Threaded Vertigo,Nearctula sp.,0,Snails
+Mudpuppy,Necturus maculosus,0,Amphibians
+Macoun's Shining Moss,Neomacounia nitida,0,Mosses
+Cryptic Paw Lichen,Nephroma occultum,0,Lichens
+Northern Watersnake,Nerodia sipedon sipedon,0,Reptiles
+American Burying Beetle,Nicrophorus americanus,1,Insects
+Hornyhead Chub,Nocomis biguttatus,0,Fishes
+River Chub,Nocomis micropogon,0,Fishes
+Pugnose Shiner,Notropis anogenus,0,Fishes
+Bridle Shiner,Notropis bifrenatus,1,Fishes
+Ghost Shiner,Notropis buchanani,0,Fishes
+Bigmouth Shiner,Notropis dorsalis,0,Fishes
+Blackchin Shiner,Notropis heterodon,0,Fishes
+Carmine Shiner,Notropis percobromus,0,Fishes
+Silver Shiner,Notropis photogenis,0,Fishes
+Rosyface Shiner,Notropis rubellus,0,Fishes
+Weed Shiner,Notropis texanus,0,Fishes
+Margined Madtom,Noturus insignis,0,Fishes
+Brindled Madtom,Noturus miurus,0,Fishes
+Northern Madtom,Noturus stigmosus,0,Fishes
+Long-billed Curlew,Numenius americanus,2,Birds
+Eskimo Curlew,Numenius borealis,0,Birds
+Poweshiek Skipperling,Oarisma poweshiek,0,Insects
+Threehorn Wartyback,Obliquaria reflexa,0,Clams
+Hickorynut,Obovaria olivaria,0,Clams
+Round Hickorynut,Obovaria subrotunda,0,Clams
+Pixie Poacher,Occella impi,0,Fishes
+Collared Pika,Ochotona collaris,0,Mammals
+Atlantic Walrus,Odobenus rosmarus rosmarus,0,Mammals
+Audouin’s Night-stalking Tiger Beetle,Omus audouini,0,Insects
+Westslope Cutthroat Trout,Oncorhynchus clarkii lewisi,2,Fishes
+Coho Salmon,Oncorhynchus kisutch,2,Fishes
+Rainbow Trout,Oncorhynchus mykiss,3,Fishes
+Sockeye Salmon,Oncorhynchus nerka,0,Fishes
+Chinook Salmon,Oncorhynchus tshawytscha,1,Fishes
+Pygmy Snaketail,Ophiogomphus howei,0,Insects
+Pugnose Minnow,Opsopoeodus emiliae,0,Fishes
+Eastern Prickly Pear Cactus,Opuntia humifusa,0,Flowering Plants
+Killer Whale,Orcinus orca,1,Mammals
+Sage Thrasher,Oreoscoptes montanus,0,Birds
+Grand Coulee Owl-clover,Orthocarpus barbatus,0,Flowering Plants
+Rosy Owl-clover,Orthocarpus bracteosus,0,Flowering Plants
+Rainbow Smelt,Osmerus mordax,3,Fishes
+Olympia Oyster,Ostrea lurida,0,Clams
+Flammulated Owl,Otus flammeolus,1,Birds
+Drooping-leaved Beard-moss,Oxystegus recurvifolius,0,Mosses
+Hare-footed Locoweed,Oxytropis lagopus,0,Flowering Plants
+Ivory Gull,Pagophila eburnea,0,Birds
+American Ginseng,Panax quinquefolius,0,Flowering Plants
+Wrinkled Shingle Lichen,Pannaria lurida,0,Lichens
+Gray Ratsnake,Pantherophis spiloides,0,Reptiles
+Eastern Foxsnake,Pantherophis vulpinus,0,Reptiles
+Aweme Borer,Papaipema aweme,0,Insects
+Louisiana Waterthrush,Parkesia motacilla,2,Birds
+Savannah Sparrow princeps subspecies,Passerculus sandwichensis princeps,0,Birds
+Band-tailed Pigeon,Patagioenas fasciata,0,Birds
+Proud Globelet,Patera pennsylvanica,0,Snails
+Furbish's Lousewort,Pedicularis furbishiae,0,Flowering Plants
+American White Pelican,Pelecanus erythrorhynchos,0,Birds
+Western Waterfan,Peltigera gowardii,0,Lichens
+Eastern Waterfan,Peltigera hydrothyria,0,Lichens
+Channel Darter,Percina copelandi,0,Fishes
+River Darter,Percina shumardi,0,Fishes
+Tri-colored Bat,Perimyotis subflavus,2,Mammals
+Branched Phacelia,Phacelia ramosissima,0,Flowering Plants
+Red Oak Stubble Lichen,Phaeocalicium minutissimum,0,Lichens
+Double-crested Cormorant,Phalacrocorax auritus,2,Birds
+Common Poorwill,Phalaenoptilus nuttallii,0,Birds
+Red-necked Phalarope,Phalaropus lobatus,1,Birds
+Rapids Clubtail,Phanogomphus quadricolor,0,Insects
+Broad Beech Fern,Phegopteris hexagonoptera,0,Ferns and Allies
+Carolina Mantleslug,Philomycus carolinianus,0,Snails
+Blue Phlox,Phlox alyssifolia,0,Flowering Plants
+Showy Phlox,Phlox speciosa ssp. occidentalis,0,Flowering Plants
+Harbour Seal Pacific subspecies,Phoca vitulina richardsi,0,Mammals
+Harbour Porpoise,Phocoena phocoena vomerina,7,Mammals
+Dall's Porpoise,Phocoenoides dalli,0,Mammals
+Short-tailed Albatross,Phoebastria albatrus,0,Birds
+Black-footed Albatross,Phoebastria nigripes,0,Birds
+Pygmy Short-horned Lizard,Phrynosoma douglasii,0,Reptiles
+Greater Short-horned Lizard,Phrynosoma hernandesi,0,Reptiles
+Lake Winnipeg Physa,Physa sp.,0,Snails
+Pale-bellied Frost Lichen,Physconia subpallida,0,Lichens
+Banff Springs Snail,Physella johnsoni,0,Snails
+Gatineau Tadpole Snail,Physella parkeri latchfordi,0,Snails
+Hotwater Physa,Physella wrighti,0,Snails
+Sperm Whale,Physeter macrocephalus,5,Mammals
+White-headed Woodpecker,Picoides albolarvatus,0,Birds
+Bluntnose Minnow,Pimephales notatus,0,Fishes
+Great Auk,Pinguinus impennis,0,Birds
+Whitebark Pine,Pinus albicaulis,0,Conifers and Cycads
+Limber Pine,Pinus flexilis,0,Conifers and Cycads
+Bullsnake,Pituophis catenifer sayi,0,Reptiles
+Fragrant Popcornflower,Plagiobothrys figuratus,0,Flowering Plants
+Slender Popcornflower,Plagiobothrys tenellus,0,Flowering Plants
+Heart-leaved Plantain,Plantago cordata,0,Flowering Plants
+Eastern Prairie Fringed Orchid,Platanthera leucophaea,0,Flowering Plants
+Western Prairie Fringed Orchid,Platanthera praeclara,0,Flowering Plants
+Island Blue,Plebejus saepiolus insulanus,0,Insects
+Karner Blue,Plebejus samuelis,0,Insects
+Five-lined Skink,Plestiodon fasciatus,0,Reptiles
+Prairie Skink,Plestiodon septentrionalis,0,Reptiles
+Western Skink,Plestiodon skiltonianus,0,Reptiles
+Coeur d'Alene Salamander,Plethodon idahoensis,0,Amphibians
+Western Red-backed Salamander,Plethodon vehiculum,0,Amphibians
+Round Pigtoe,Pleurobema sintoxia,0,Clams
+Horned Grebe,Podiceps auritus,1,Birds
+Red-necked Grebe,Podiceps grisegena,1,Birds
+Yukon Podistera,Podistera yukonensis,0,Flowering Plants
+Van Brunt's Jacob's-ladder,Polemonium vanbruntiae,0,Flowering Plants
+Sonora Skipper,Polites sonora,0,Insects
+Pink Milkwort,Polygala incarnata,0,Flowering Plants
+Paddlefish,Polyodon spathula,0,Fishes
+Lemmon's Holly Fern,Polystichum lemmonii,0,Ferns and Allies
+Mountain Holly Fern,Polystichum scopulinum,0,Ferns and Allies
+Coastal Vesper Sparrow,Pooecetes gramineus affinis,0,Birds
+Hill's Pondweed,Potamogeton hillii,0,Flowering Plants
+Ogden's Pondweed,Potamogeton ogdenii,0,Flowering Plants
+Hoptree Borer,Prays atomocella,0,Insects
+Blue Shark,Prionace glauca,0,Fishes
+Five-spotted Bogus Yucca Moth,Prodoxus quinquepunctellus,0,Insects
+Blue-grey Taildropper,Prophysaon coeruleum,0,Snails
+Pygmy Whitefish,Prosopium coulterii,0,Fishes
+Prothonotary Warbler,Protonotaria citrea,1,Birds
+Western Chorus Frog,Pseudacris triseriata,2,Amphibians
+Ghost Antler Lichen,Pseudevernia cladonia,0,Lichens
+Oldgrowth Specklebelly Lichen,Pseudocyphellaria rainierensis,0,Lichens
+False Killer Whale,Pseudorca crassidens,0,Mammals
+Dwarf Woolly-heads,Psilocarphus brevissimus,0,Flowering Plants
+Tall Woolly-heads,Psilocarphus elatior,0,Flowering Plants
+Slender Woolly-heads,Psilocarphus tenellus var. tenellus,0,Flowering Plants
+Northwestern Cellar Spider,Psilochorus hesperus,0,Insects
+Common Hoptree,Ptelea trifoliata,0,Flowering Plants
+Alkaline Wing-nerved Moss,Pterygoneurum kozlovii,0,Mosses
+Kidneyshell,Ptychobranchus fasciolaris,0,Clams
+Incurved Grizzled Moss,Ptychomitrium incurvum,0,Mosses
+Cassin's Auklet,Ptychoramphus aleuticus,0,Birds
+Cougar,Puma concolor couguar,1,Mammals
+Ringed Seal,Pusa hispida,0,Mammals
+Hoary Mountain-mint,Pycnanthemum incanum,0,Flowering Plants
+Flathead Catfish,Pylodictis olivaris,0,Fishes
+False-foxglove Sun Moth,Pyrrhia aurantiago,0,Insects
+Mapleleaf,Quadrula quadrula,0,Clams
+Shumard Oak,Quercus shumardii,0,Flowering Plants
+Big Skate,Raja binoculata,0,Fishes
+Longnose Skate,Raja rhina,0,Fishes
+King Rail,Rallus elegans,2,Birds
+Northern Red-legged Frog,Rana aurora,0,Amphibians
+Columbia Spotted Frog,Rana luteiventris,0,Amphibians
+Pickerel Frog,Rana palustris,1,Amphibians
+Oregon Spotted Frog,Rana pretiosa,0,Amphibians
+Caribou dawsoni subspecies,Rangifer tarandus dawsoni,4,Mammals
+Water-plantain Buttercup,Ranunculus alismifolius,0,Flowering Plants
+California Buttercup,Ranunculus californicus,0,Flowering Plants
+Queensnake,Regina septemvittata,0,Reptiles
+Western Harvest Mouse megalotis subspecies,Reithrodontomys megalotis megalotis,0,Mammals
+Nooksack Dace,Rhinichthys cataractae,0,Fishes
+Leopard Dace,Rhinichthys falcatus,0,Fishes
+Speckled Dace,Rhinichthys osculus,0,Fishes
+Umatilla Dace,Rhinichthys umatilla,0,Fishes
+Pacific Rhododendron,Rhododendron macrophyllum,0,Flowering Plants
+Ross's Gull,Rhodostethia rosea,0,Birds
+McCown's Longspur,Rhynchophanes mccownii,1,Birds
+Tall Beakrush,Rhynchospora macrostachya,0,Flowering Plants
+Bank Swallow,Riparia riparia,1,Birds
+Climbing Prairie Rose,Rosa setigera,0,Flowering Plants
+Toothcup,Rotala ramosior,0,Flowering Plants
+Plymouth Gentian,Sabatia kennedyana,0,Flowering Plants
+Sand-dune Short-capsuled Willow,Salix brachycarpa var. psammophila,0,Flowering Plants
+Green-scaled Willow,Salix chlorolepis,0,Flowering Plants
+Barrens Willow,Salix jejuna,0,Flowering Plants
+Blanket-leaved Willow,Salix silicicola,0,Flowering Plants
+Turnor's Willow,Salix turnorii,0,Flowering Plants
+Tyrrell's Willow,Salix tyrrellii,0,Flowering Plants
+Atlantic Salmon,Salmo salar,6,Fishes
+Bull Trout,Salvelinus confluentus,5,Fishes
+Aurora Trout,Salvelinus fontinalis timagamiensis,0,Fishes
+Dolly Varden,Salvelinus malma malma,0,Fishes
+Blue Walleye,Sander vitreus glaucus,0,Fishes
+Bert's Predaceous Diving Beetle,Sanfilippodytes bertae,0,Insects
+Bear's-foot Sanicle,Sanicula arctopoides,0,Flowering Plants
+Purple Sanicle,Sanicula bipinnatifida,0,Flowering Plants
+Pacific Sardine,Sardinops sagax,0,Fishes
+Behr's Hairstreak,Satyrium behrii,0,Insects
+Half-moon Hairstreak,Satyrium semiluna,0,Insects
+Eastern Mole,Scalopus aquaticus,0,Mammals
+Townsend's Mole,Scapanus townsendii,0,Mammals
+Gold-edged Gem,Schinia avemensis,0,Insects
+White Flower Moth,Schinia bimatris,0,Insects
+Verna's Flower Moth,Schinia verna,0,Insects
+Long's Bulrush,Scirpus longii,0,Flowering Plants
+Fox Squirrel,Sciurus niger,2,Mammals
+Frosted Glass-whiskers,Sclerophora peronella,0,Lichens
+Margined Streamside Moss,Scouleria marginata,0,Mosses
+Darkblotched Rockfish,Sebastes crameri,0,Fishes
+Acadian Redfish,Sebastes fasciatus,0,Fishes
+Quillback Rockfish,Sebastes maliger,0,Fishes
+Deepwater Redfish,Sebastes mentella,0,Fishes
+Bocaccio,Sebastes paucispinis,0,Fishes
+Canary Rockfish,Sebastes pinniger,0,Fishes
+Yellowmouth Rockfish,Sebastes reedi,0,Fishes
+Yelloweye Rockfish,Sebastes ruberrimus,0,Fishes
+Rougheye Rockfish type I,Sebastes sp.,0,Fishes
+Longspine Thornyhead,Sebastolobus altivelis,0,Fishes
+Acuteleaf Small Limestone Moss,Seligeria acutifolia,0,Mosses
+Carey’s Small Limestone Moss,Seligeria careyana,0,Mosses
+White-top Aster,Sericocarpus rigidus,0,Flowering Plants
+Cerulean Warbler,Setophaga cerulea,1,Birds
+Hooded Warbler,Setophaga citrina,1,Birds
+Prairie Warbler,Setophaga discolor,0,Birds
+Kirtland's Warbler,Setophaga kirtlandii,0,Birds
+Eastern Bluebird,Sialia sialis,1,Birds
+Virginia Mallow,Sida hermaphrodita,0,Flowering Plants
+Coastal Scouler's Catchfly,Silene scouleri ssp. grandis,0,Flowering Plants
+Spalding's Campion,Silene spaldingii,1,Flowering Plants
+Salamander Mussel,Simpsonaias ambigua,0,Clams
+Massasauga,Sistrurus catenatus,2,Reptiles
+Round-leaved Greenbrier,Smilax rotundifolia,0,Flowering Plants
+Gillman's Goldenrod,Solidago gillmanii,0,Flowering Plants
+Houghton's Goldenrod,Solidago houghtonii,0,Flowering Plants
+Riddell's Goldenrod,Solidago riddellii,0,Flowering Plants
+Showy Goldenrod,Solidago speciosa,0,Flowering Plants
+Hine's Emerald,Somatochlora hineana,0,Insects
+Pacific Water Shrew,Sorex bendirii,0,Mammals
+Gaspé Shrew,Sorex gaspensis,0,Mammals
+Plains Spadefoot,Spea bombifrons,1,Amphibians
+Great Basin Spadefoot,Spea intermontana,0,Amphibians
+Cascade Mantled Ground Squirrel,Spermophilus saturatus,0,Mammals
+Williamson's Sapsucker,Sphyrapicus thyroideus,0,Birds
+Ute Ladies’–tresses,Spiranthes diluvialis,0,Flowering Plants
+Longfin Smelt,Spirinchus thaleichthys,0,Fishes
+Spiny Dogfish,Squalus acanthias,0,Fishes
+North Pacific Spiny Dogfish,Squalus suckleyi,0,Fishes
+Haida Gwaii Slug,Staala gwaii,0,Snails
+Sand Stitchwort,Stellaria arenicola,0,Flowering Plants
+Striped Dolphin,Stenella coeruleoalba,0,Mammals
+Northern Mock Goldenweed,Stenotus borealis,0,Flowering Plants
+Rush Pink,Stephanomeria runcinata,0,Flowering Plants
+Caspian Tern,Sterna caspia,0,Birds
+Roseate Tern,Sterna dougallii,0,Birds
+Forster's Tern,Sterna forsteri,0,Birds
+Common Tern,Sterna hirundo,0,Birds
+Eastern Musk Turtle,Sternotherus odoratus,0,Reptiles
+DeKay's Brownsnake,Storeria dekayi,0,Reptiles
+Great Grey Owl,Strix nebulosa,1,Birds
+Spotted Owl caurina subspecies,Strix occidentalis caurina,3,Birds
+Eastern Meadowlark,Sturnella magna,0,Birds
+Wood-poppy,Stylophorum diphyllum,0,Flowering Plants
+Riverine Clubtail,Stylurus amnicola,0,Insects
+Laura's Clubtail,Stylurus laurae,0,Insects
+Olive Clubtail,Stylurus olivaceus,0,Insects
+Northern Hawk Owl,Surnia ulula,0,Birds
+Nuttall's Cottontail nuttallii subspecies,Sylvilagus nuttallii nuttallii,0,Mammals
+Nuttall's Cottontail pinetis subspecies,Sylvilagus nuttallii pinetis,0,Mammals
+Anticosti Aster,Symphyotrichum anticostense,0,Flowering Plants
+Short-rayed Alkali Aster,Symphyotrichum frondosum,0,Flowering Plants
+Gulf of St. Lawrence Aster,Symphyotrichum laurentianum,0,Flowering Plants
+Nahanni Aster,Symphyotrichum nahanniense,0,Flowering Plants
+Willowleaf Aster,Symphyotrichum praealtum,0,Flowering Plants
+Crooked-stem Aster,Symphyotrichum prenanthoides,0,Flowering Plants
+Western Silvery Aster,Symphyotrichum sericeum,0,Flowering Plants
+Short's Aster,Symphyotrichum shortii,0,Flowering Plants
+Annual Saltmarsh Aster,Symphyotrichum subulatum,0,Flowering Plants
+Yukon Aster,Symphyotrichum yukonense,0,Flowering Plants
+Ancient Murrelet,Synthliboramphus antiquus,0,Birds
+Twisted Oak Moss,Syntrichia laevipila,0,Mosses
+Fameflower,Talinum sediforme,0,Flowering Plants
+Floccose Tansy,Tanacetum huronense var. floccosum,0,Flowering Plants
+American Badger,Taxidea taxus,0,Mammals
+Non-pollinating Yucca Moth,Tegeticula corruptrix,0,Insects
+Yucca Moth,Tegeticula yuccasella,0,Insects
+Golden-eye Lichen,Teloschistes chrysophthalmus,0,Lichens
+Virginia Goat's-rue,Tephrosia virginiana,0,Flowering Plants
+Eastern Box Turtle,Terrapene carolina,3,Reptiles
+Lakeside Daisy,Tetraneuris herbacea,0,Flowering Plants
+Eulachon,Thaleichthys pacificus,0,Fishes
+Butler's Gartersnake,Thamnophis butleri,0,Reptiles
+Northwestern Gartersnake,Thamnophis ordinoides,0,Reptiles
+Eastern Ribbonsnake,Thamnophis sauritus,0,Reptiles
+Atlantic Bluefin Tuna,Thunnus thynnus,0,Fishes
+Small-flowered Tonella,Tonella tenella,0,Flowering Plants
+Porter's Twisted Moss,Tortula porteri,0,Mosses
+Lilliput,Toxolasma parvum,0,Clams
+Western Spiderwort,Tradescantia occidentalis,0,Flowering Plants
+Bashful Bulrush,Trichophorum planifolium,0,Flowering Plants
+Drooping Trillium,Trillium flexipes,0,Flowering Plants
+Lake Huron Grasshopper,Trimerotropis huroniana,0,Insects
+Nodding Pogonia,Triphora trianthophoros,0,Flowering Plants
+Bearded Owl-clover,Triphysaria versicolor,0,Flowering Plants
+Small-flowered Sand-verbena,Tripterocalyx micranthus,0,Flowering Plants
+Howell's Triteleia,Triteleia howellii,0,Flowering Plants
+Fawnsfoot,Truncilla donaciformis,0,Clams
+Buff-breasted Sandpiper,Tryngites subruficollis,0,Birds
+Common Bottlenose Dolphin,Tursiops truncatus,3,Mammals
+Greater Prairie-Chicken,Tympanuchus cupido,1,Birds
+Barn Owl,Tyto alba,1,Birds
+Gray Fox,Urocyon cinereoargenteus,0,Mammals
+Lindley's False Silverpuffs,Uropappus lindleyi,0,Flowering Plants
+White Hake,Urophycis tenuis,0,Fishes
+American Black Bear,Ursus americanus,7,Mammals
+Grizzly Bear,Ursus arctos,11,Mammals
+Polar Bear,Ursus maritimus,0,Mammals
+Deerberry,Vaccinium stamineum,0,Flowering Plants
+Hairy Valerian,Valeriana edulis ssp. ciliata,0,Flowering Plants
+Golden-winged Warbler,Vermivora chrysoptera,2,Birds
+Fascicled Ironweed,Vernonia fasciculata,0,Flowering Plants
+Rayed Bean,Villosa fabalis,0,Clams
+Rainbow Mussel,Villosa iris,0,Clams
+Bird's-foot Violet,Viola pedata,0,Flowering Plants
+Yellow Montane Violet praemorsa subspecies,Viola praemorsa ssp. praemorsa,0,Flowering Plants
+Swift Fox,Vulpes velox,0,Mammals
+Striped Whitelip,Webbhelix multilineata,0,Snails
+Blunt-lobed Woodsia,Woodsia obtusa,0,Flowering Plants
+Soapweed,Yucca glauca,0,Flowering Plants
+Sheathed Slug,Zacoleus idahoensis,0,Clams
+California Sea Lion,Zalophus californianus,1,Mammals
+Cuvier's Beaked Whale,Ziphius cavirostris,1,Mammals
+Harris's Sparrow,Zonotrichia querula,0,Birds
+Slender Yoke-moss,Zygodon gracilis,0,Mosses

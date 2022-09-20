@@ -1,9 +1,16 @@
-"Group","total_papers","with_detect","Country","proportion"
-"Amphibians",11,8,"USA",0.727272727272727
-"Birds",25,19,"USA",0.76
-"Clams",2,2,"USA",1
-"Fishes",27,17,"USA",0.62962962962963
-"Angiosperms",10,5,"USA",0.5
-"Insects",5,3,"USA",0.6
-"Mammals",97,62,"USA",0.639175257731959
-"Reptiles",47,24,"USA",0.51063829787234
+Group,num_papers,Country
+Amphibians,19,USA
+Arachnids,0,USA
+Birds,37,USA
+Clams,14,USA
+Conifers and Cycads,0,USA
+Crustaceans,7,USA
+Ferns and Allies,5,USA
+Fishes,20,USA
+Flowering Plants,88,USA
+Insects,9,USA
+Lichens,0,USA
+Mammals,29,USA
+Reptiles,7,USA
+Snails,5,USA
+Mosses,0,USA
