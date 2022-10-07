@@ -17,7 +17,7 @@ canada_data <- canada_raw %>%
   group_by(Group) %>% 
   summarise(total_species = n_distinct(Common.Name),
             species_estimates = sum(num_papers > 0)) %>% 
-  mutate(proportion = (species_estimates/total_species)*100) %>% 
+  mutate(proportion = (species_estimates/total_species)) %>% 
   add_column(Country = "Canada")
 
 canada_data
@@ -31,7 +31,7 @@ usa_data <- usa_raw %>%
   group_by(Group) %>% 
   summarise(total_species = n_distinct(Common.Name),
             species_estimates = sum(num_papers > 0)) %>% 
-  mutate(proportion = (species_estimates/total_species)*100) %>% 
+  mutate(proportion = (species_estimates/total_species)) %>% 
   add_column(Country = "USA")
 
 usa_data
@@ -67,7 +67,7 @@ ggplot() +
   theme_minimal() +
   theme(text = element_text(size = 16)) +
   ggtitle("CANADA") +
-  scale_y_continuous(breaks = seq(0, 60, 10), limits = c(-0.1, 60)) +
+  scale_y_continuous(breaks = seq(0, 1, 0.2), limits = c(0, 1)) +
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
         axis.ticks = element_line(colour = "black", size = 1),
         axis.line = element_line(colour = "black", size = 1),
@@ -87,7 +87,7 @@ usa_pic <- usa %>%
         axis.text.y=element_blank(),axis.ticks=element_blank(),
         plot.title = element_text(hjust = 0.5)) +
   ggtitle("USA") +
-  scale_y_continuous(breaks = seq(0, 60, 10), limits = c(-0.1, 60)) +
+  scale_y_continuous(breaks = seq(0, 1, 0.2), limits = c(0, 1)) +
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
         axis.ticks.x = element_line(colour = "black", size = 1),
         axis.line.x = element_line(colour = "black", size = 1)) +
@@ -373,38 +373,38 @@ test +
 ##### double figure
 
 usa_phylo <- usa_pic + 
-  add_phylopic(arach_pic, alpha = 1, x = 12, y = 7, ysize = 10) +
-  add_phylopic(conifer_pic, alpha = 1, x = 13, y = 7, ysize = 10) +
-  add_phylopic(lichen_pic, alpha = 1, x = 14, y = 5, ysize = 5) +
-  add_phylopic(crust_pic, alpha = 1, x = 11, y = 8, ysize = 5) +
-  add_phylopic(flower_pic, alpha = 1, x = 10, y = 10, ysize = 5) +
-  add_phylopic(clam_pic, alpha = 1, x = 9, y = 10, ysize = 5) +
-  add_phylopic(insect_pic, alpha = 1, x = 8, y = 12, ysize = 6) +
-  add_phylopic(snail_pic, alpha = 1, x = 7, y = 13, ysize = 8) +
-  add_phylopic(fish_pic, alpha = 1, x = 6, y = 15, ysize = 9) +
-  add_phylopic(fern_pic, alpha = 1, x = 5, y = 16, ysize = 6) +
-  add_phylopic(reptile_pic, alpha = 1, x = 4, y = 20, ysize = 9) +
-  add_phylopic(bear_pic, alpha = 1, x = 3, y = 20.5, ysize = 5) +
-  add_phylopic(bird_pic, alpha = 1, x = 2, y = 22, ysize = 5) +
-  add_phylopic(toad_pic, alpha = 1, x = 1, y = 38, ysize = 6) 
+  add_phylopic(arach_pic, alpha = 1, x = 12, y = 0.1, ysize = 1) +
+  add_phylopic(conifer_pic, alpha = 1, x = 13, y = 0.1, ysize = 1) +
+  add_phylopic(lichen_pic, alpha = 1, x = 14, y = 0.1, ysize = 1) +
+  add_phylopic(crust_pic, alpha = 1, x = 11, y = 0.1, ysize = 1) +
+  add_phylopic(flower_pic, alpha = 1, x = 10, y = 0.15, ysize = 1) +
+  add_phylopic(clam_pic, alpha = 1, x = 9, y = 0.15, ysize = 1) +
+  add_phylopic(insect_pic, alpha = 1, x = 8, y = 0.15, ysize = 1) +
+  add_phylopic(snail_pic, alpha = 1, x = 7, y = 0.15, ysize = 1) +
+  add_phylopic(fish_pic, alpha = 1, x = 6, y = 0.15, ysize = 1) +
+  add_phylopic(fern_pic, alpha = 1, x = 5, y = 0.2, ysize = 1) +
+  add_phylopic(reptile_pic, alpha = 1, x = 4, y = 0.2, ysize = 1) +
+  add_phylopic(bear_pic, alpha = 1, x = 3, y = 0.3, ysize = 1) +
+  add_phylopic(bird_pic, alpha = 1, x = 2, y = 0.3, ysize = 1) +
+  add_phylopic(toad_pic, alpha = 1, x = 1, y = 0.4, ysize = 1) 
   
  
   
 can_phylo <- can_pic + 
-  add_phylopic(bird_pic, alpha = 1, x = 1, y = 58, ysize = 5) +
-  add_phylopic(bear_pic, alpha = 1, x = 2, y = 43, ysize = 5) +
-  add_phylopic(toad_pic, alpha = 1, x = 3, y = 35, ysize = 6) +
-  add_phylopic(reptile_pic, alpha = 1, x = 4, y = 23, ysize = 10) +
-  add_phylopic(fish_pic, alpha = 1, x = 5, y = 20, ysize = 8) +
-  add_phylopic(lichen_pic, alpha = 1, x = 6, y = 15, ysize = 5) +
-  add_phylopic(insect_pic, alpha = 1, x = 7, y = 11, ysize = 6) +
-  add_phylopic(clam_pic, alpha = 1, x = 8, y = 11, ysize = 5) +
-  add_phylopic(flower_pic, alpha = 1, x = 9, y = 5, ysize = 5) +
-  add_phylopic(arach_pic, alpha = 1, x = 10, y = 5, ysize = 7) +
-  add_phylopic(conifer_pic, alpha = 1, x = 11, y = 7, ysize = 10) +
-  add_phylopic(fern_pic, alpha = 1, x = 12, y = 5, ysize = 6) +
-  add_phylopic(moss_pic, alpha = 1, x = 13, y = 5, ysize = 7) + 
-  add_phylopic(snail_pic, alpha = 1, x = 14, y = 5, ysize = 7)
+  add_phylopic(bird_pic, alpha = 1, x = 1, y = 0.6, ysize = 0.75) +
+  add_phylopic(bear_pic, alpha = 1, x = 2, y = 0.45, ysize = 0.75) +
+  add_phylopic(toad_pic, alpha = 1, x = 3, y = 0.39, ysize = 0.8) +
+  add_phylopic(reptile_pic, alpha = 1, x = 4, y = 0.25, ysize = 1) +
+  add_phylopic(fish_pic, alpha = 1, x = 5, y = 0.25, ysize = 1) +
+  add_phylopic(lichen_pic, alpha = 1, x = 6, y = 0.17, ysize = 0.75) +
+  add_phylopic(insect_pic, alpha = 1, x = 7, y = 0.17, ysize = 1) +
+  add_phylopic(clam_pic, alpha = 1, x = 8, y = 0.15, ysize = 0.65) +
+  add_phylopic(flower_pic, alpha = 1, x = 9, y = 0.1, ysize = 0.75) +
+  add_phylopic(arach_pic, alpha = 1, x = 10, y = 0.1, ysize = 1) +
+  add_phylopic(conifer_pic, alpha = 1, x = 11, y = 0.13, ysize = 1.5) +
+  add_phylopic(fern_pic, alpha = 1, x = 12, y = 0.1, ysize = 0.7) +
+  add_phylopic(moss_pic, alpha = 1, x = 13, y = 0.1, ysize = 1) + 
+  add_phylopic(snail_pic, alpha = 1, x = 14, y = 0.1, ysize = 1)
   
   
 combine_phylo <- usa_phylo + plot_spacer() + can_phylo +
