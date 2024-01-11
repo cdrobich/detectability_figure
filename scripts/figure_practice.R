@@ -47,9 +47,21 @@ data_combined <- rbind(canada_data, usa_data)
 write.csv(data_combined,"data/data_combined.csv", row.names = FALSE)
 
 
- # ggplot figure
+# ggplot figure -----------------------------------------------------------
+library(extrafont)
+library(showtext)
+
+font_import(pattern = "Helvetica")
+loadfonts(device = "win")
+windowsFonts()
+
+font_add(family = "helvetica",
+         regular = 'C:\\Users\\court\\AppData\\Local\\Microsoft\\Windows\\Fonts\\Helvetica Roman.ttf')
+showtext_auto()
+
 canada <- read.csv("data/canada_data.csv")
 usa <- read.csv("data/usa_data.csv")
+
 
 # Plot
 colnames(canada)
@@ -64,14 +76,15 @@ ggplot() +
   #geom_point( aes(x = Group, y = total_papers), colour = "#0A9396", size=5 ) +
   xlab("") +
   ylab(" ") +
-  theme_minimal() +
+  theme_classic() +
   theme(text = element_text(size = 26)) +
   ggtitle("CANADA") +
   scale_y_continuous(breaks = seq(0, 1, 0.2), limits = c(0, 1)) +
-  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
+  theme(text = element_text(family = "helvetica"),
+        axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
         axis.ticks = element_line(colour = "black", size = 1),
         axis.line = element_line(colour = "black", size = 1),
-        plot.title = element_text(hjust = 0.5)) 
+        plot.title = element_text(hjust = 0.5,size = 20))
 
 usa_pic <- usa %>% 
   mutate(Group = fct_reorder(Group, proportion, .desc = TRUE)) %>% 
@@ -82,27 +95,28 @@ usa_pic <- usa %>%
              fill = "white", size=5, shape = 19, stroke = 1.5) +
   xlab("") +
   ylab(" ") +
-  theme_minimal() +
-  theme(text = element_text(size = 26),
+  theme_classic() +
+  theme(text = element_text(size = 26, family = "helvetica"),
         axis.text.y=element_blank(),axis.ticks=element_blank(),
-        plot.title = element_text(hjust = 0.5)) +
+        plot.title = element_text(hjust = 0.5, size = 20)) +
   ggtitle("USA") +
   scale_y_continuous(breaks = seq(0, 1, 0.2), limits = c(0, 1)) +
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
         axis.ticks.x = element_line(colour = "black", size = 1),
-        axis.line.x = element_line(colour = "black", size = 1)) +
+        axis.line.x = element_line(colour = "black", size = 1))+
   annotate("text", x = 17, y = 0.29, label = "", size = 5) 
 
 # Put it together
 
-  
+usa_pic + can_pic
+
 
 ggsave("figures/combined_figure.TIFF", combine,
        width = 15.8,
        height = 7.6)
 
 
-####### paired plot
+####### paired plot #######
 library(ggalt)
 
 data_combined <- read.csv("data/data_combined.csv")
@@ -141,7 +155,7 @@ test <- combined_wide %>%
 
 
 
-# Phylopic
+###### Phylopic ############
 # http://phylopic.org/
 colnames(canada_raw)
 
@@ -234,7 +248,7 @@ moss_img <- get_phylopic(uuid = moss)
 
 ##### Crustacean #####
  
-crust <- get_uuid(name = "Decapoda", n = 1)
+crust <- get_uuid(name = "shrimp", n = 1)
 crust_img <- get_phylopic(uuid = crust)
 
 ####### "Arachnids"  ######
@@ -302,38 +316,38 @@ test +
 ##### double figure #######
 
 usa_phylo <- usa_pic + 
-  add_phylopic(arach_img, alpha = 1, x = 12, y = 0.1, ysize = 1) +
-  add_phylopic(conifer_img, alpha = 1, x = 13, y = 0.1, ysize = 1) +
-  add_phylopic(lichen_img, alpha = 1, x = 14, y = 0.1, ysize = 1) +
-  add_phylopic(crust_img, alpha = 1, x = 11, y = 0.1, ysize = 1) +
-  add_phylopic(flower_img, alpha = 1, x = 10, y = 0.15, ysize = 1) +
-  add_phylopic(clam_img, alpha = 1, x = 9, y = 0.12, ysize = 0.75) +
-  add_phylopic(insect_img, alpha = 1, x = 8, y = 0.15, ysize = 1) +
-  add_phylopic(snail_img, alpha = 1, x = 7, y = 0.15, ysize = 1) +
-  add_phylopic(fish_img, alpha = 1, x = 6, y = 0.15, ysize = 1) +
-  add_phylopic(fern_img, alpha = 1, x = 5, y = 0.2, ysize = 1) +
-  add_phylopic(reptile_img, alpha = 1, x = 4, y = 0.2, ysize = 1) +
-  add_phylopic(bear_img, alpha = 1, x = 3, y = 0.25, ysize = .75) +
-  add_phylopic(bird_img, alpha = 1, x = 2, y = 0.3, ysize = 1) +
-  add_phylopic(toad_img, alpha = 1, x = 1, y = 0.4, ysize = 1) 
+  add_phylopic(arach_img, alpha = 1, x = 12, y = 0.1, ysize = 0.15) +
+  add_phylopic(conifer_img, alpha = 1, x = 13, y = 0.13, ysize = 0.2) +
+  add_phylopic(lichen_img, alpha = 1, x = 14, y = 0.1, ysize = 0.1) +
+  add_phylopic(crust_img, alpha = 1, x = 11, y = 0.1, ysize = 0.09) +
+  add_phylopic(flower_img, alpha = 1, x = 10, y = 0.15, ysize = 0.1) +
+  add_phylopic(clam_img, alpha = 1, x = 9, y = 0.12, ysize = 0.09) +
+  add_phylopic(insect_img, alpha = 1, x = 7.9, y = 0.15, ysize = 0.12) +
+  add_phylopic(snail_img, alpha = 1, x = 7, y = 0.15, ysize = 0.11) +
+  add_phylopic(fish_img, alpha = 1, x = 6, y = 0.17, ysize = 0.13) +
+  add_phylopic(fern_img, alpha = 1, x = 5, y = 0.23, ysize = 0.2) +
+  add_phylopic(reptile_img, alpha = 1, x = 4.2, y = 0.2, ysize = 0.1) +
+  add_phylopic(bear_img, alpha = 1, x = 3, y = 0.22, ysize = 0.08) +
+  add_phylopic(bird_img, alpha = 1, x = 2, y = 0.28, ysize = 0.1) +
+  add_phylopic(toad_img, alpha = 1, x = 1, y = 0.4, ysize = 0.1) 
   
  
   
 can_phylo <- can_pic + 
-  add_phylopic(bird_img, alpha = 1, x = 1, y = 0.6, ysize = 0.75) +
-  add_phylopic(bear_img, alpha = 1, x = 2, y = 0.45, ysize = 0.75) +
-  add_phylopic(toad_img, alpha = 1, x = 3, y = 0.39, ysize = 0.8) +
-  add_phylopic(reptile_img, alpha = 1, x = 4, y = 0.25, ysize = 1) +
-  add_phylopic(fish_img, alpha = 1, x = 5, y = 0.25, ysize = 1) +
-  add_phylopic(lichen_img, alpha = 1, x = 6, y = 0.17, ysize = 0.75) +
-  add_phylopic(insect_img, alpha = 1, x = 7, y = 0.15, ysize = 0.75) +
-  add_phylopic(clam_img, alpha = 1, x = 8, y = 0.1, ysize = 0.65) +
-  add_phylopic(flower_img, alpha = 1, x = 9, y = 0.1, ysize = 0.75) +
-  add_phylopic(arach_img, alpha = 1, x = 10, y = 0.1, ysize = 1) +
-  add_phylopic(conifer_img, alpha = 1, x = 11, y = 0.13, ysize = 1.5) +
-  add_phylopic(fern_img, alpha = 1, x = 12, y = 0.1, ysize = 0.7) +
-  add_phylopic(moss_img, alpha = 1, x = 13, y = 0.1, ysize = 1.5) + 
-  add_phylopic(snail_img, alpha = 1, x = 14, y = 0.1, ysize = 1)
+  add_phylopic(bird_img, alpha = 1, x = 1.15, y = 0.6, ysize = 0.1) +
+  add_phylopic(bear_img, alpha = 1, x = 2, y = 0.44, ysize = 0.09) +
+  add_phylopic(toad_img, alpha = 1, x = 3.1, y = 0.36, ysize = 0.09) +
+  add_phylopic(reptile_img, alpha = 1, x = 4, y = 0.25, ysize = 0.1) +
+  add_phylopic(fish_img, alpha = 1, x = 5, y = 0.22, ysize = 0.13) +
+  add_phylopic(lichen_img, alpha = 1, x = 6, y = 0.17, ysize = 0.1) +
+  add_phylopic(insect_img, alpha = 1, x = 7, y = 0.15, ysize = 0.1) +
+  add_phylopic(clam_img, alpha = 1, x = 8, y = 0.14, ysize = 0.08) +
+  add_phylopic(flower_img, alpha = 1, x = 9, y = 0.1, ysize = 0.1) +
+  add_phylopic(arach_img, alpha = 1, x = 10, y = 0.1, ysize = 0.15) +
+  add_phylopic(conifer_img, alpha = 1, x = 11, y = 0.14, ysize = 0.22) +
+  add_phylopic(fern_img, alpha = 1, x = 12, y = 0.14, ysize = 0.22) +
+  add_phylopic(moss_img, alpha = 1, x = 13, y = 0.15, ysize = 0.22) + 
+  add_phylopic(snail_img, alpha = 1, x = 14, y = 0.1, ysize = 0.15)
   
   
 combine_phylo <- usa_phylo + plot_spacer() + can_phylo +
@@ -342,9 +356,28 @@ combine_phylo <- usa_phylo + plot_spacer() + can_phylo +
 
 combine_phylo
 
-
 ggsave("figures/combined_figure_phylo.TIFF",
-       combine_phylo)
+       combine_phylo,
+       width = 18.7,
+       height = 10,
+       dpi = 300)
+
+
+ggsave("figures/combined_figure_phylo.pdf",
+       combine_phylo,
+       width = 18.7,
+       height = 10,
+       dpi = 300)
    
 
-  
+ggsave("figures/combined_figure_phylo.jpg",
+       combine_phylo,
+       width = 18.7,
+       height = 10,
+       dpi = 300)
+
+ggsave("figures/combined_figure_phylo.png",
+       combine_phylo,
+       width = 18.7,
+       height = 10,
+       dpi = 300)
